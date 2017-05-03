@@ -9,7 +9,7 @@ org-manager:
   ldap_group: ""
 org-auditor:
   ldap_users: []
-  users: ["skeery"]
+  users: []
   ldap_group: ""
 enable-org-quota: false
 memory-limit: 10240
