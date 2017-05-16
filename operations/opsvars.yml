@@ -1,7 +1,13 @@
 ---
 - op: replace
-  path: /jobs/name=create-orgs/plan/task=create-orgs/params/SYSTEM_DOMAIN
-  value: {{sandbox_system_domain}}
+  path: /jobs/name=create-orgs/plan/task=create-orgs/params
+  value:
+    SYSTEM_DOMAIN: {{system_domain}}
+    USER_ID: {{user_id}}
+    CF_MGMT_COMMAND: create-orgs
+    CLIENT_SECRET: {{sandbox_client_secret}}
+    PASSWORD: {{sandbox_password}}
+
 
 #- op: update
 #  path: /jobs/*/params/SYSTEM_DOMAIN
