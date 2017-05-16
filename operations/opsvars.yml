@@ -1,0 +1,18 @@
+---
+- op: replace
+  path: /jobs/name=create-orgs/plan/task=create-orgs/params/SYSTEM_DOMAIN
+  value: {{sandbox_system_domain}}
+
+#- op: update
+#  path: /jobs/*/params/SYSTEM_DOMAIN
+#  value: {{sandbox_system_domain}}
+
+#  - op: update
+#    path: /jobs/*/params/SYSTEM_DOMAIN
+#    value: {{sandbox_system_domain}}
+
+
+#  {{user_id}}
+#  {{password}}
+#  {{client_secret}}
+#  {{system_domain}}
