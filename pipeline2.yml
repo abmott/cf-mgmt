@@ -1,0 +1,248 @@
+resources:
+- name: config-repo
+  type: git
+  source:
+    uri: {{git_repo_uri}}
+    branch: master
+    private_key: {{private-repo-key}}
+- name: 15m
+  type: time
+  source: {interval: 15m}
+
+jobs:
+- name: prod-create-orgs
+  plan:
+  - get: config-repo
+    trigger: true
+  - task: create-orgs
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_system_domain}}
+      USER_ID: {{prod_user_id}}
+      PASSWORD: {{prod_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_client_secret}}
+      CF_MGMT_COMMAND: create-orgs
+- name: prod-create-spaces
+  plan:
+  - get: config-repo
+    passed: [create-orgs]
+    trigger: true
+  - task: create-spaces
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_system_domain}}
+      USER_ID: {{prod_user_id}}
+      PASSWORD: {{prod_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: create-spaces
+- name: prod-update-spaces
+  plan:
+  - get: config-repo
+    passed: [create-spaces]
+    trigger: true
+  - task: update-spaces
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_system_domain}}
+      USER_ID: {{prod_user_id}}
+      PASSWORD: {{prod_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_client_secret}}
+      CF_MGMT_COMMAND: update-spaces
+- name: prod-update-space-users
+  plan:
+  - get: config-repo
+    passed: [create-spaces]
+    trigger: true
+  - get: 15m
+    trigger: true
+  - task: update-space-users
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_system_domain}}
+      USER_ID: {{prod_user_id}}
+      PASSWORD: {{prod_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: update-space-users
+- name: prod-update-space-quotas
+  plan:
+  - get: config-repo
+    passed: [create-spaces]
+    trigger: true
+  - task: update-space-quotas
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_system_domain}}
+      USER_ID: {{prod_user_id}}
+      PASSWORD: {{prod_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_client_secret}}
+      CF_MGMT_COMMAND: update-space-quotas
+- name: prod-prod_update-space-security-groups
+  plan:
+  - get: config-repo
+    passed: [create-spaces]
+    trigger: true
+  - task: update-space-security-groups
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_system_domain}}
+      USER_ID: {{prod_user_id}}
+      PASSWORD: {{prod_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_client_secret}}
+      CF_MGMT_COMMAND: update-space-security-groups
+- name: prod-update-org-users
+  plan:
+  - get: config-repo
+    passed: [create-orgs]
+    trigger: true
+  - get: 15m
+    trigger: true
+  - task: update-org-users
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_system_domain}}
+      USER_ID: {{prod_user_id}}
+      PASSWORD: {{prod_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: update-org-users
+- name: prod-update-org-quotas
+  plan:
+  - get: config-repo
+    passed: [create-orgs]
+    trigger: true
+  - task: update-org-quotas
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_system_domain}}
+      USER_ID: {{prod_user_id}}
+      PASSWORD: {{prod_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_client_secret}}
+      CF_MGMT_COMMAND: update-org-quotas
+- name: sandbox-create-orgs
+  plan:
+  - get: config-repo
+    trigger: true
+  - task: create-orgs
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{sandbox_system_domain}}
+      USER_ID: {{sandbox_user_id}}
+      PASSWORD: {{sandbox_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{sandbox_client_secret}}
+      CF_MGMT_COMMAND: create-orgs
+- name: sandbox-create-spaces
+  plan:
+  - get: config-repo
+    passed: [create-orgs]
+    trigger: true
+  - task: create-spaces
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{sandbox_system_domain}}
+      USER_ID: {{sandbox_user_id}}
+      PASSWORD: {{sandbox_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{sandbox_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: create-spaces
+- name: sandbox-update-spaces
+  plan:
+  - get: config-repo
+    passed: [create-spaces]
+    trigger: true
+  - task: update-spaces
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{sandbox_system_domain}}
+      USER_ID: {{sandbox_user_id}}
+      PASSWORD: {{sandbox_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{sandbox_client_secret}}
+      CF_MGMT_COMMAND: update-spaces
+- name: sandbox-update-space-users
+  plan:
+  - get: config-repo
+    passed: [create-spaces]
+    trigger: true
+  - get: 15m
+    trigger: true
+  - task: update-space-users
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{sandbox_system_domain}}
+      USER_ID: {{sandbox_user_id}}
+      PASSWORD: {{sandbox_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{sandbox_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: update-space-users
+- name: sandbox-update-space-quotas
+  plan:
+  - get: config-repo
+    passed: [create-spaces]
+    trigger: true
+  - task: update-space-quotas
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{sandbox_system_domain}}
+      USER_ID: {{sandbox_user_id}}
+      PASSWORD: {{sandbox_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{sandbox_client_secret}}
+      CF_MGMT_COMMAND: update-space-quotas
+- name: sandbox-update-space-security-groups
+  plan:
+  - get: config-repo
+    passed: [create-spaces]
+    trigger: true
+  - task: update-space-security-groups
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{sandbox_system_domain}}
+      USER_ID: {{sandbox_user_id}}
+      PASSWORD: {{sandbox_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{sandbox_client_secret}}
+      CF_MGMT_COMMAND: update-space-security-groups
+- name: sandbox-update-org-users
+  plan:
+  - get: config-repo
+    passed: [create-orgs]
+    trigger: true
+  - get: 15m
+    trigger: true
+  - task: update-org-users
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{sandbox_system_domain}}
+      USER_ID: {{sandbox_user_id}}
+      PASSWORD: {{sandbox_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{sandbox_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: update-org-users
+- name: sandbox-update-org-quotas
+  plan:
+  - get: config-repo
+    passed: [create-orgs]
+    trigger: true
+  - task: update-org-quotas
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{sandbox_system_domain}}
+      USER_ID: {{sandbox_user_id}}
+      PASSWORD: {{sandbox_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{sandbox_client_secret}}
+      CF_MGMT_COMMAND: update-org-quotas
