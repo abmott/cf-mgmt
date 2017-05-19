@@ -26,7 +26,7 @@ jobs:
 - name: prod-create-spaces
   plan:
   - get: config-repo
-    passed: [create-orgs]
+    passed: [prod-create-orgs]
     trigger: true
   - task: create-spaces
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -41,7 +41,7 @@ jobs:
 - name: prod-update-spaces
   plan:
   - get: config-repo
-    passed: [create-spaces]
+    passed: [prod-create-spaces]
     trigger: true
   - task: update-spaces
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -55,7 +55,7 @@ jobs:
 - name: prod-update-space-users
   plan:
   - get: config-repo
-    passed: [create-spaces]
+    passed: [prod-create-spaces]
     trigger: true
   - get: 15m
     trigger: true
@@ -72,7 +72,7 @@ jobs:
 - name: prod-update-space-quotas
   plan:
   - get: config-repo
-    passed: [create-spaces]
+    passed: [prod-create-spaces]
     trigger: true
   - task: update-space-quotas
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -86,7 +86,7 @@ jobs:
 - name: prod-prod_update-space-security-groups
   plan:
   - get: config-repo
-    passed: [create-spaces]
+    passed: [prod-create-spaces]
     trigger: true
   - task: update-space-security-groups
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -100,7 +100,7 @@ jobs:
 - name: prod-update-org-users
   plan:
   - get: config-repo
-    passed: [create-orgs]
+    passed: [prod-create-orgs]
     trigger: true
   - get: 15m
     trigger: true
@@ -117,7 +117,7 @@ jobs:
 - name: prod-update-org-quotas
   plan:
   - get: config-repo
-    passed: [create-orgs]
+    passed: [prod-create-orgs]
     trigger: true
   - task: update-org-quotas
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -144,7 +144,7 @@ jobs:
 - name: sandbox-create-spaces
   plan:
   - get: config-repo
-    passed: [create-orgs]
+    passed: [sandbox-create-orgs]
     trigger: true
   - task: create-spaces
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -159,7 +159,7 @@ jobs:
 - name: sandbox-update-spaces
   plan:
   - get: config-repo
-    passed: [create-spaces]
+    passed: [sandbox-create-spaces]
     trigger: true
   - task: update-spaces
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -173,7 +173,7 @@ jobs:
 - name: sandbox-update-space-users
   plan:
   - get: config-repo
-    passed: [create-spaces]
+    passed: [sandbox-create-spaces]
     trigger: true
   - get: 15m
     trigger: true
@@ -190,7 +190,7 @@ jobs:
 - name: sandbox-update-space-quotas
   plan:
   - get: config-repo
-    passed: [create-spaces]
+    passed: [sandbox-create-spaces]
     trigger: true
   - task: update-space-quotas
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -204,7 +204,7 @@ jobs:
 - name: sandbox-update-space-security-groups
   plan:
   - get: config-repo
-    passed: [create-spaces]
+    passed: [sandbox-create-spaces]
     trigger: true
   - task: update-space-security-groups
     file: config-repo/ci/tasks/cf-mgmt.yml
@@ -218,7 +218,7 @@ jobs:
 - name: sandbox-update-org-users
   plan:
   - get: config-repo
-    passed: [create-orgs]
+    passed: [sandbox-create-orgs]
     trigger: true
   - get: 15m
     trigger: true
@@ -235,7 +235,7 @@ jobs:
 - name: sandbox-update-org-quotas
   plan:
   - get: config-repo
-    passed: [create-orgs]
+    passed: [sandbox-create-orgs]
     trigger: true
   - task: update-org-quotas
     file: config-repo/ci/tasks/cf-mgmt.yml
