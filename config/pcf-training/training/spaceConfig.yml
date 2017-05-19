@@ -2,7 +2,7 @@ org: pcf-training
 space: training
 space-developer:
   ldap_users: []
-  users: ["dkumar", "hmahey", "dthompson", "akomalachery", "garogia", "pwagner", "chill", "kperry", "dgudima", "bstuns", "jnimlos", "rjeffwery", "rmedina", "kpatel", "jhirsch", "bsnodgrass", "bmallick"]
+  users: ["dkumar", "hmahey", "dthompson", "akomalachery", "garogia", "pwagner", "chill", "kperry", "dgudima", "bstuns", "jnimlos", "rjeffery", "rmedina", "kpatel", "jhirsch", "bsnodgrass", "bmallick"]
   ldap_group: ""
 space-manager:
   ldap_users: []

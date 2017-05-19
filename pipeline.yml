@@ -4,12 +4,13 @@ resources:
   source:
     uri: {{git_repo_uri}}
     branch: master
-    private_key: {{private-repo-key}} 
+    private_key: {{private-repo-key}}
 - name: 15m
   type: time
   source: {interval: 15m}
 
 jobs:
+- name: sandbox-create-orgs
 - name: create-orgs
   plan:
   - get: config-repo
