@@ -10,123 +10,241 @@ resources:
   source: {interval: 15m}
 
 jobs:
-- name: prod-create-orgs
+- name: prod-pdc-create-orgs
   plan:
   - get: config-repo
     trigger: true
   - task: create-orgs
     file: config-repo/ci/tasks/cf-mgmt.yml
     params:
-      SYSTEM_DOMAIN: {{prod_system_domain}}
-      USER_ID: {{prod_user_id}}
-      PASSWORD: {{prod_password}}
+      SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
+      USER_ID: {{prod_pdc_user_id}}
+      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
-      CLIENT_SECRET: {{prod_client_secret}}
+      CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: create-orgs
-- name: prod-create-spaces
+- name: prod-pdc-create-spaces
   plan:
   - get: config-repo
-    passed: [prod-create-orgs]
+    passed: [prod-pdc-create-orgs]
     trigger: true
   - task: create-spaces
     file: config-repo/ci/tasks/cf-mgmt.yml
     params:
-      SYSTEM_DOMAIN: {{prod_system_domain}}
-      USER_ID: {{prod_user_id}}
-      PASSWORD: {{prod_password}}
+      SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
+      USER_ID: {{prod_pdc_user_id}}
+      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
-      CLIENT_SECRET: {{prod_client_secret}}
+      CLIENT_SECRET: {{prod_pdc_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
       CF_MGMT_COMMAND: create-spaces
-- name: prod-update-spaces
+- name: prod-pdc-update-spaces
   plan:
   - get: config-repo
-    passed: [prod-create-spaces]
+    passed: [prod-pdc-create-spaces]
     trigger: true
   - task: update-spaces
     file: config-repo/ci/tasks/cf-mgmt.yml
     params:
-      SYSTEM_DOMAIN: {{prod_system_domain}}
-      USER_ID: {{prod_user_id}}
-      PASSWORD: {{prod_password}}
+      SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
+      USER_ID: {{prod_pdc_user_id}}
+      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
-      CLIENT_SECRET: {{prod_client_secret}}
+      CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: update-spaces
-- name: prod-update-space-users
+- name: prod-pdc-update-space-users
   plan:
   - get: config-repo
-    passed: [prod-create-spaces]
+    passed: [prod-pdc-create-spaces]
     trigger: true
   - get: 15m
     trigger: true
   - task: update-space-users
     file: config-repo/ci/tasks/cf-mgmt.yml
     params:
-      SYSTEM_DOMAIN: {{prod_system_domain}}
-      USER_ID: {{prod_user_id}}
-      PASSWORD: {{prod_password}}
+      SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
+      USER_ID: {{prod_pdc_user_id}}
+      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
-      CLIENT_SECRET: {{prod_client_secret}}
+      CLIENT_SECRET: {{prod_pdc_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
       CF_MGMT_COMMAND: update-space-users
-- name: prod-update-space-quotas
+- name: prod-pdc-update-space-quotas
   plan:
   - get: config-repo
-    passed: [prod-create-spaces]
+    passed: [prod-pdc-create-spaces]
     trigger: true
   - task: update-space-quotas
     file: config-repo/ci/tasks/cf-mgmt.yml
     params:
-      SYSTEM_DOMAIN: {{prod_system_domain}}
-      USER_ID: {{prod_user_id}}
-      PASSWORD: {{prod_password}}
+      SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
+      USER_ID: {{prod_pdc_user_id}}
+      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
-      CLIENT_SECRET: {{prod_client_secret}}
+      CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: update-space-quotas
-- name: prod-prod_update-space-security-groups
+- name: prod-pdc-prod-update-space-security-groups
   plan:
   - get: config-repo
-    passed: [prod-create-spaces]
+    passed: [prod-pdc-create-spaces]
     trigger: true
   - task: update-space-security-groups
     file: config-repo/ci/tasks/cf-mgmt.yml
     params:
-      SYSTEM_DOMAIN: {{prod_system_domain}}
-      USER_ID: {{prod_user_id}}
-      PASSWORD: {{prod_password}}
+      SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
+      USER_ID: {{prod_pdc_user_id}}
+      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
-      CLIENT_SECRET: {{prod_client_secret}}
+      CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: update-space-security-groups
-- name: prod-update-org-users
+- name: prod-pdc-update-org-users
   plan:
   - get: config-repo
-    passed: [prod-create-orgs]
+    passed: [prod-pdc-create-orgs]
     trigger: true
   - get: 15m
     trigger: true
   - task: update-org-users
     file: config-repo/ci/tasks/cf-mgmt.yml
     params:
-      SYSTEM_DOMAIN: {{prod_system_domain}}
-      USER_ID: {{prod_user_id}}
-      PASSWORD: {{prod_password}}
+      SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
+      USER_ID: {{prod_pdc_user_id}}
+      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
-      CLIENT_SECRET: {{prod_client_secret}}
+      CLIENT_SECRET: {{prod_pdc_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
       CF_MGMT_COMMAND: update-org-users
-- name: prod-update-org-quotas
+- name: prod-pdc-update-org-quotas
   plan:
   - get: config-repo
-    passed: [prod-create-orgs]
+    passed: [prod-pdc-create-orgs]
     trigger: true
   - task: update-org-quotas
     file: config-repo/ci/tasks/cf-mgmt.yml
     params:
-      SYSTEM_DOMAIN: {{prod_system_domain}}
-      USER_ID: {{prod_user_id}}
-      PASSWORD: {{prod_password}}
+      SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
+      USER_ID: {{prod_pdc_user_id}}
+      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
-      CLIENT_SECRET: {{prod_client_secret}}
+      CLIENT_SECRET: {{prod_pdc_client_secret}}
+      CF_MGMT_COMMAND: update-org-quotas
+- name: prod-gdc-create-orgs
+  plan:
+  - get: config-repo
+    trigger: true
+  - task: create-orgs
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
+      USER_ID: {{prod_gdc_user_id}}
+      PASSWORD: {{prod_gdc_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_gdc_client_secret}}
+      CF_MGMT_COMMAND: create-orgs
+- name: prod-gdc-create-spaces
+  plan:
+  - get: config-repo
+    passed: [prod-gdc-create-orgs]
+    trigger: true
+  - task: create-spaces
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
+      USER_ID: {{prod_gdc_user_id}}
+      PASSWORD: {{prod_gdc_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_gdc_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: create-spaces
+- name: prod-gdc-update-spaces
+  plan:
+  - get: config-repo
+    passed: [prod-gdc-create-spaces]
+    trigger: true
+  - task: update-spaces
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
+      USER_ID: {{prod_gdc_user_id}}
+      PASSWORD: {{prod_gdc_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_gdc_client_secret}}
+      CF_MGMT_COMMAND: update-spaces
+- name: prod-gdc-update-space-users
+  plan:
+  - get: config-repo
+    passed: [prod-gdc-create-spaces]
+    trigger: true
+  - get: 15m
+    trigger: true
+  - task: update-space-users
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
+      USER_ID: {{prod_gdc_user_id}}
+      PASSWORD: {{prod_gdc_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_gdc_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: update-space-users
+- name: prod-gdc-update-space-quotas
+  plan:
+  - get: config-repo
+    passed: [prod-gdc-create-spaces]
+    trigger: true
+  - task: update-space-quotas
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
+      USER_ID: {{prod_gdc_user_id}}
+      PASSWORD: {{prod_gdc_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_gdc_client_secret}}
+      CF_MGMT_COMMAND: update-space-quotas
+- name: prod-gdc-update-space-security-groups
+  plan:
+  - get: config-repo
+    passed: [prod-gdc-create-spaces]
+    trigger: true
+  - task: update-space-security-groups
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
+      USER_ID: {{prod_gdc_user_id}}
+      PASSWORD: {{prod_gdc_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_gdc_client_secret}}
+      CF_MGMT_COMMAND: update-space-security-groups
+- name: prod-gdc-update-org-users
+  plan:
+  - get: config-repo
+    passed: [prod-gdc-create-orgs]
+    trigger: true
+  - get: 15m
+    trigger: true
+  - task: update-org-users
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
+      USER_ID: {{prod_gdc_user_id}}
+      PASSWORD: {{prod_gdc_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_gdc_client_secret}}
+      LDAP_PASSWORD: {{ldap_password}}
+      CF_MGMT_COMMAND: update-org-users
+- name: prod-gdc-update-org-quotas
+  plan:
+  - get: config-repo
+    passed: [prod-gdc-create-orgs]
+    trigger: true
+  - task: update-org-quotas
+    file: config-repo/ci/tasks/cf-mgmt.yml
+    params:
+      SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
+      USER_ID: {{prod_gdc_user_id}}
+      PASSWORD: {{prod_gdc_password}}
+      CONFIG_DIR: ./config
+      CLIENT_SECRET: {{prod_gdc_client_secret}}
       CF_MGMT_COMMAND: update-org-quotas
 - name: sandbox-create-orgs
   plan:
