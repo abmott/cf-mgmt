@@ -21,3 +21,6 @@ spaces:
 - document-portal-prod
 - elastalert
 - service-broker
+- iportal-dev
+- iportal-test
+- iportal-prod
