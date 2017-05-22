@@ -1,20 +1,30 @@
-org: pcf-test
-org-billingmanager:
+org: ds
+space: document-portal-dev
+space-developer:
+  ldap_users: []
+  users:
+  - bmallick
+  - starve
+  - chitrak
+  - chill
+  - pwagner
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users:
+  - chill
+  - pwagner
+  ldap_group: ""
+space-auditor:
   ldap_users: []
   users: []
   ldap_group: ""
-org-manager:
-  ldap_users: []
-  users: ["amott","jdee","kcampos"]
-  ldap_group: ""
-org-auditor:
-  ldap_users: []
-  users: []
-  ldap_group: ""
-enable-org-quota: false
+allow-ssh: true
+enable-space-quota: false
 memory-limit: 10240
 instance-memory-limit: -1
 total-routes: 10
 total-services: -1
 paid-service-plans-allowed: false
+enable-security-group: false
 enable-remove-users: true

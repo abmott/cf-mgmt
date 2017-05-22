@@ -8,4 +8,4 @@ userNameAttribute: ""
 userMailAttribute: ""
 groupSearchBase: ""
 groupAttribute: ""
-origin: ldap
+origin: uaa

@@ -1,18 +1,34 @@
-org: pcf-training
-space: training
+org: ds
+space: quote-prod
 space-developer:
   ldap_users: []
-  users: ["dkumar", "hmahey", "dthompson", "akomalachery", "garogia", "pwagner", "chill", "kperry", "dgudima", "bstuns", "jnimlos", "rjeffery", "rmedina", "kpatel", "jhirsch", "bsnodgrass", "bmallick"]
+  users:
+  - ci-quote-2
+  - amott
+  - kcampos
+  - jdee
+  - bstuns
+  - admin
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users: []
+  users:
+  - admin
+  - amott
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - jnimlos
+  - jhirsch
+  - rmedina
+  - rjeffery
+  - swolfe
+  - bstuns
+  - chitrak
+  - bstilwell
   ldap_group: ""
-allow-ssh: false
+allow-ssh: true
 enable-space-quota: false
 memory-limit: 10240
 instance-memory-limit: -1

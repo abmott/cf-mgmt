@@ -1,20 +1,29 @@
 org: ds
-space: alexa-service-dev
+space: ops_utilities-dev
 space-developer:
   ldap_users: []
   users:
-  - chill
-  - pwagner
+  - admin
+  - amott
+  - kcampos
+  - jdee
+  - pbardzinski
+  - lita-concourse
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - pwagner
-  - chill
+  - jdee
+  - pbardzinski
+  - lita-concourse
+  - admin
+  - amott
+  - kcampos
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - lita-concourse
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

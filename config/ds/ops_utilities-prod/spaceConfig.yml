@@ -1,16 +1,20 @@
 org: ds
-space: alexa-service-dev
+space: ops_utilities-prod
 space-developer:
   ldap_users: []
   users:
-  - chill
-  - pwagner
+  - jdee
+  - admin
+  - amott
+  - kcampos
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - pwagner
-  - chill
+  - admin
+  - amott
+  - kcampos
+  - jdee
   ldap_group: ""
 space-auditor:
   ldap_users: []

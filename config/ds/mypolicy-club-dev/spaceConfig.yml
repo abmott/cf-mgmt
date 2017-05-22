@@ -1,20 +1,30 @@
 org: ds
-space: alexa-service-dev
+space: mypolicy-club-dev
 space-developer:
   ldap_users: []
   users:
   - chill
+  - pbardzinski
+  - rkumar
+  - kperry
+  - ci-mypolicy-da
+  - amott
   - pwagner
+  - jdee
+  - dgudima
+  - kpatel
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - pwagner
   - chill
+  - pwagner
+  - jdee
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - jdee
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

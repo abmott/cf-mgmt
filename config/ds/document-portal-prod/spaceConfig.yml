@@ -1,20 +1,24 @@
 org: ds
-space: alexa-service-dev
+space: document-portal-prod
 space-developer:
   ldap_users: []
   users:
   - chill
   - pwagner
+  - bmallick
+  - starve
+  - chitrak
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - pwagner
   - chill
+  - pwagner
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - chitrak
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

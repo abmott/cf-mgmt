@@ -1,20 +1,47 @@
 org: ds
-space: alexa-service-dev
+space: quote-dev
 space-developer:
   ldap_users: []
   users:
+  - pbardzinski
+  - swolfe
+  - bstuns
+  - bsnodgrass
+  - alee
+  - ci-quote-2
   - chill
   - pwagner
+  - jdee
+  - jhirsch
+  - lita-concourse
+  - admin
+  - amott
+  - bstilwell
+  - tbenson
+  - jutter
+  - kcampos
+  - jnimlos
+  - rmedina
+  - rjeffery
+  - chitrak
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - pwagner
+  - lita-concourse
+  - admin
+  - amott
   - chill
+  - pwagner
+  - jdee
+  - pbardzinski
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - jutter
+  - lita-concourse
+  - chitrak
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

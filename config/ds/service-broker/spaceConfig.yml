@@ -1,16 +1,12 @@
 org: ds
-space: alexa-service-dev
+space: service-broker
 space-developer:
   ldap_users: []
-  users:
-  - chill
-  - pwagner
+  users: []
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - pwagner
-  - chill
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []
