@@ -22,6 +22,7 @@ space-developer:
   - chill
   - pbardzinski
   - tbenson
+  - bmallick
   ldap_group: ""
 space-manager:
   ldap_users: []
