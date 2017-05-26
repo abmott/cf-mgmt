@@ -7,6 +7,8 @@ space-developer:
   - ci-quote-2
   - kcampos
   - bstuns
+  - rmedina
+  - jhirsch
   ldap_group: ""
 space-manager:
   ldap_users: []
