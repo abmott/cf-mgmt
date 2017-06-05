@@ -8,6 +8,7 @@ space-developer:
   - amott
   - kcampos
   - dgudima
+  - jnimlos
   ldap_group: ""
 space-manager:
   ldap_users: []
