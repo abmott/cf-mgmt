@@ -1,12 +1,13 @@
 org: ds
-space: mypolicy-club-prod
+space: mpc-dev
 space-developer:
   ldap_users: []
   users:
+  - chill
+  - ci-mypolicy-da
+  - amott
   - pwagner
   - jdee
-  - ci-mypolicy-da
-  - chill
   ldap_group: ""
 space-manager:
   ldap_users: []

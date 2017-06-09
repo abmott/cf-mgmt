@@ -8,10 +8,10 @@ spaces:
 - alexa-service-dev
 - quote-cert
 - connect-services-prod
-- mypolicy-da-dev
+- mpc-dev
 - connect-services-dev
-- mypolicy-da-test
-- mypolicy-da-prod
+- mpc-test
+- mpc-prod
 - ds_web-dev
 - ds_web-prod
 - mypolicy-club-dev

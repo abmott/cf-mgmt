@@ -1,16 +1,12 @@
 org: ds
-space: mypolicy-club-test
+space: mpc-test
 space-developer:
   ldap_users: []
   users:
-  - dgudima
-  - kpatel
-  - kperry
   - ci-mypolicy-da
   - chill
   - pwagner
   - jdee
-  - rkumar
   ldap_group: ""
 space-manager:
   ldap_users: []
