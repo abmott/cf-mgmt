@@ -9,6 +9,7 @@ space-developer:
   - kcampos
   - dgudima
   - jnimlos
+  - alee
   ldap_group: ""
 space-manager:
   ldap_users: []
