@@ -5,6 +5,7 @@ spaces:
 - quote-test
 - ops_utilities-dev
 - ops_utilities-prod
+- ops_utilities-test
 - alexa-service-dev
 - quote-cert
 - connect-services-prod
