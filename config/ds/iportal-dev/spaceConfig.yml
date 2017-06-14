@@ -10,12 +10,10 @@ space-developer:
   - dgudima
   - jnimlos
   - alee
-  - ci-mypolicy-da
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - ci-mypolicy-da
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

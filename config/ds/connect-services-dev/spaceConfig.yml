@@ -11,6 +11,7 @@ space-developer:
   - kperry
   - lita-concourse
   - amott
+  - ci-mypolicy-da
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -18,6 +19,7 @@ space-manager:
   - chill
   - pwagner
   - lita-concourse
+  - ci-mypolicy-da
   ldap_group: ""
 space-auditor:
   ldap_users: []
