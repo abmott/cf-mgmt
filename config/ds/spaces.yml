@@ -25,3 +25,5 @@ spaces:
 - iportal-dev
 - iportal-test
 - iportal-prod
+- sonar-dev
+- sonar-prod
