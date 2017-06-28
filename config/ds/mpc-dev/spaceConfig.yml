@@ -8,6 +8,8 @@ space-developer:
   - amott
   - pwagner
   - jdee
+  - bstuns
+  - rjeffery
   ldap_group: ""
 space-manager:
   ldap_users: []

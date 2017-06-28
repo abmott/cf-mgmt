@@ -7,6 +7,8 @@ space-developer:
   - jdee
   - ci-mypolicy-da
   - chill
+  - bstuns
+  - rjeffery
   ldap_group: ""
 space-manager:
   ldap_users: []
