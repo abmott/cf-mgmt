@@ -3,6 +3,7 @@ spaces:
 - quote-dev
 - quote-prod
 - quote-test
+- quote-evalue
 - ops_utilities-dev
 - ops_utilities-prod
 - ops_utilities-test

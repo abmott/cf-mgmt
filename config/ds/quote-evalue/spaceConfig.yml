@@ -1,0 +1,40 @@
+org: ds
+space: quote-evalue
+space-developer:
+  ldap_users: []
+  users:
+  - bsnodgrass
+  - ci-quote-2
+  - pbardzinski
+  - rmedina
+  - rjeffery
+  - bstuns
+  - jhirsch
+  - swolfe
+  - admin
+  - amott
+  - jdee
+  - bstilwell
+  - jnimlos
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users:
+  - admin
+  - pbardzinski
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - jutter
+  - chitrak
+  ldap_group: ""
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
