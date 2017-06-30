@@ -12,6 +12,7 @@ space-developer:
   - lita-concourse
   - amott
   - ci-mypolicy-da
+  - rjeffery
   ldap_group: ""
 space-manager:
   ldap_users: []
