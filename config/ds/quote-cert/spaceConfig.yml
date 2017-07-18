@@ -10,6 +10,7 @@ space-developer:
   - rmedina
   - jhirsch
   - bsnodgrass
+  - bmallick
   ldap_group: ""
 space-manager:
   ldap_users: []
