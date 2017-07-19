@@ -28,3 +28,5 @@ spaces:
 - iportal-prod
 - sonar-dev
 - sonar-prod
+- mypolicy-da-evalue
+- iportal-evalue
