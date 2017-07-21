@@ -19,7 +19,6 @@ space-developer:
   - jnimlos
   - bstuns
   - ci-mypolicy-da
-  - chill
   - pbardzinski
   - tbenson
   - bmallick
@@ -31,7 +30,7 @@ space-manager:
   - pwagner
   - jdee
   - lita-concourse
-  - chill
+  - jnimlos
   ldap_group: ""
 space-auditor:
   ldap_users: []

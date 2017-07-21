@@ -3,14 +3,14 @@ space: connect-services-test
 space-developer:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   - ci-mypolicy-da
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   - ci-mypolicy-da
   ldap_group: ""

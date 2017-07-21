@@ -3,7 +3,7 @@ space: mypolicy-da-prod
 space-developer:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - kcampos
   - kpatel
   - ci-mypolicy-da
@@ -17,7 +17,7 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   - kcampos
   ldap_group: ""

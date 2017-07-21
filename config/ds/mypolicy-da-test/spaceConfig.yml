@@ -3,7 +3,7 @@ space: mypolicy-da-test
 space-developer:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   - kcampos
   - kpatel
@@ -20,7 +20,7 @@ space-manager:
   users:
   - pwagner
   - kcampos
-  - chill
+  - jnimlos
   ldap_group: ""
 space-auditor:
   ldap_users: []
