@@ -1,0 +1,10 @@
+org: ITSIA
+spaces:
+- cccm-dev
+- cccm-dev2
+- cccm-e3e
+- cccm-e2e
+- cccm-perf
+- cccm-prod
+- cccm-qa
+- cccm-qa2
