@@ -13,6 +13,7 @@ space-developer:
   - amott
   - ci-mypolicy-da
   - rjeffery
+  - jdee
   ldap_group: ""
 space-manager:
   ldap_users: []
