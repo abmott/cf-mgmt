@@ -3,14 +3,14 @@ space: alexa-service-dev
 space-developer:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
   - pwagner
-  - chill
+  - jnimlos
   ldap_group: ""
 space-auditor:
   ldap_users: []

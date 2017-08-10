@@ -6,14 +6,14 @@ space-developer:
   - pwagner
   - jdee
   - ci-mypolicy-da
-  - chill
+  - jnimlos
   - bstuns
   - rjeffery
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   - jdee
   ldap_group: ""

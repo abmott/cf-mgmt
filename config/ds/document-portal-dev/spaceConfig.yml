@@ -6,13 +6,13 @@ space-developer:
   - bmallick
   - starve
   - chitrak
-  - chill
+  - jnimlos
   - pwagner
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   ldap_group: ""
 space-auditor:

@@ -3,7 +3,7 @@ space: mpc-dev
 space-developer:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - ci-mypolicy-da
   - amott
   - pwagner
@@ -14,7 +14,7 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   - jdee
   ldap_group: ""

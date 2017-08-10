@@ -1,24 +1,22 @@
-org: ds
-space: connect-services-test
+org: ITSIA
+space: cccm-dev
 space-developer:
   ldap_users: []
   users:
-  - jnimlos
-  - pwagner
-  - ci-mypolicy-da
+  - dkumar
+  - skumar
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - jnimlos
-  - pwagner
-  - ci-mypolicy-da
+  - dkumar
+  - skumar
   ldap_group: ""
 space-auditor:
   ldap_users: []
   users: []
   ldap_group: ""
-allow-ssh: true
+allow-ssh: false
 enable-space-quota: false
 memory-limit: 10240
 instance-memory-limit: -1

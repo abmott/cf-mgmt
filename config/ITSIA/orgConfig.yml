@@ -1,4 +1,4 @@
-org: ds
+org: ITSIA
 org-billingmanager:
   ldap_users: []
   users: []
@@ -6,21 +6,15 @@ org-billingmanager:
 org-manager:
   ldap_users: []
   users:
-  - amott
-  - jnimlos
-  - pwagner
-  - kcampos
-  - jdee
-  - pbardzinski
-  - lita-concourse
-  - admin
+  - dkumar
+  - skumar
   ldap_group: ""
 org-auditor:
   ldap_users: []
   users: []
   ldap_group: ""
 enable-org-quota: true
-memory-limit: 150000
+memory-limit: 10240
 instance-memory-limit: -1
 total-routes: 1000
 total-services: 100

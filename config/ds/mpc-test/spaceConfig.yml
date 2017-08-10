@@ -4,7 +4,7 @@ space-developer:
   ldap_users: []
   users:
   - ci-mypolicy-da
-  - chill
+  - jnimlos
   - pwagner
   - jdee
   - bstuns
@@ -13,7 +13,7 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - chill
+  - jnimlos
   - pwagner
   - jdee
   ldap_group: ""
