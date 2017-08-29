@@ -18,6 +18,7 @@ space-developer:
   - jnimlos
   - bmallick
   - kkanagaraj
+  - chitrak
   ldap_group: ""
 space-manager:
   ldap_users: []
