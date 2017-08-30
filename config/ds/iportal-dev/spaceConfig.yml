@@ -10,6 +10,7 @@ space-developer:
   - dgudima
   - jnimlos
   - alee
+  - chitrak
   ldap_group: ""
 space-manager:
   ldap_users: []
