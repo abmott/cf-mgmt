@@ -5,12 +5,14 @@ space-developer:
   users:
   - dkumar
   - skumar
+  - hmahey
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
   - dkumar
   - skumar
+  - hmahey
   ldap_group: ""
 space-auditor:
   ldap_users: []
