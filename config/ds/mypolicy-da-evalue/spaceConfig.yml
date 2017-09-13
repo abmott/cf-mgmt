@@ -23,6 +23,7 @@ space-developer:
   - tbenson
   - bmallick
   - rjeffery
+  - rmedina
   - hmahey
   ldap_group: ""
 space-manager:

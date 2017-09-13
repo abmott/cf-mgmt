@@ -13,6 +13,7 @@ space-developer:
   - chitrak
   - bmallick
   - rjeffery
+  - rmedina
   - hmahey
   ldap_group: ""
 space-manager:
