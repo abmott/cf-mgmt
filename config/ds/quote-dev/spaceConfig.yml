@@ -9,7 +9,6 @@ space-developer:
   - bsnodgrass
   - alee
   - ci-quote-2
-  - pwagner
   - jdee
   - jhirsch
   - lita-concourse
@@ -33,7 +32,6 @@ space-manager:
   - admin
   - amott
   - jnimlos
-  - pwagner
   - jdee
   - pbardzinski
   ldap_group: ""

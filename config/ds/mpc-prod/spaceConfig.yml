@@ -3,7 +3,6 @@ space: mpc-prod
 space-developer:
   ldap_users: []
   users:
-  - pwagner
   - jdee
   - ci-mypolicy-da
   - jnimlos
@@ -14,7 +13,6 @@ space-manager:
   ldap_users: []
   users:
   - jnimlos
-  - pwagner
   - jdee
   ldap_group: ""
 space-auditor:

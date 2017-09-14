@@ -4,7 +4,6 @@ space-developer:
   ldap_users: []
   users:
   - jnimlos
-  - pwagner
   - kcampos
   - kpatel
   - kperry
@@ -21,7 +20,6 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - pwagner
   - kcampos
   - jnimlos
   ldap_group: ""

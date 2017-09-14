@@ -11,14 +11,12 @@ space-developer:
   - amott
   - dgudima
   - kperry
-  - pwagner
   - bmallick
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
   - jnimlos
-  - pwagner
   - kcampos
   ldap_group: ""
 space-auditor:

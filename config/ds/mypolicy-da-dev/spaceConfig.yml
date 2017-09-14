@@ -7,7 +7,6 @@ space-developer:
   - alee
   - kpatel
   - kperry
-  - pwagner
   - kcampos
   - jdee
   - rkumar
@@ -29,7 +28,6 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - pwagner
   - jdee
   - lita-concourse
   - jnimlos

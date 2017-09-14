@@ -6,7 +6,6 @@ space-developer:
   - jnimlos
   - ci-mypolicy-da
   - amott
-  - pwagner
   - jdee
   - bstuns
   - rjeffery
@@ -15,7 +14,6 @@ space-manager:
   ldap_users: []
   users:
   - jnimlos
-  - pwagner
   - jdee
   ldap_group: ""
 space-auditor:

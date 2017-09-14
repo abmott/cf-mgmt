@@ -7,13 +7,11 @@ space-developer:
   - starve
   - chitrak
   - jnimlos
-  - pwagner
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
   - jnimlos
-  - pwagner
   ldap_group: ""
 space-auditor:
   ldap_users: []

@@ -3,7 +3,6 @@ space: mypolicy-da-mo
 space-developer:
   ldap_users: []
   users:
-  - pwagner
   - kcampos
   - kpatel
   - kperry
@@ -16,11 +15,12 @@ space-developer:
   - bstuns
   - rmedina
   - hmahey
+  - jnimlos
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - pwagner
+  - jnimlos
   - kcampos
   ldap_group: ""
 space-auditor:

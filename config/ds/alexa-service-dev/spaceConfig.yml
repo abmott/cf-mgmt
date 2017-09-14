@@ -4,12 +4,10 @@ space-developer:
   ldap_users: []
   users:
   - jnimlos
-  - pwagner
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - pwagner
   - jnimlos
   ldap_group: ""
 space-auditor:
