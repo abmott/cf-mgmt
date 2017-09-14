@@ -15,6 +15,7 @@ space-developer:
   - rjeffery
   - hmahey
   - bstuns
+  - jnimlos
   ldap_group: ""
 space-manager:
   ldap_users: []
