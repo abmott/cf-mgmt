@@ -16,6 +16,7 @@ space-developer:
   - rmedina
   - hmahey
   - jnimlos
+  - amcwatters
   ldap_group: ""
 space-manager:
   ldap_users: []
