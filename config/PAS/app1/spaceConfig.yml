@@ -5,6 +5,7 @@ space-developer:
   users:
   - kcherukuri
   - agerankin
+  - knorton
   ldap_group: ""
 space-manager:
   ldap_users: []
