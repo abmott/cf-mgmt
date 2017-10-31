@@ -13,6 +13,7 @@ space-developer:
   - bmallick
   - kkanagaraj
   - chitrak
+  - hmahey
   ldap_group: ""
 space-manager:
   ldap_users: []

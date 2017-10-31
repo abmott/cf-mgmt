@@ -8,6 +8,7 @@ space-developer:
   - jdee
   - bstuns
   - rjeffery
+  - hmahey
   ldap_group: ""
 space-manager:
   ldap_users: []

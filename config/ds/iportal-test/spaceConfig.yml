@@ -11,6 +11,7 @@ space-developer:
   - jnimlos
   - chitrak
   - amcwatters
+  - hmahey
   ldap_group: ""
 space-manager:
   ldap_users: []

@@ -13,6 +13,7 @@ space-developer:
   - ci-mypolicy-da
   - rjeffery
   - jdee
+  - hmahey
   ldap_group: ""
 space-manager:
   ldap_users: []

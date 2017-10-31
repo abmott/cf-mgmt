@@ -4,6 +4,7 @@ space-developer:
   ldap_users: []
   users:
   - jnimlos
+  - hmahey
   ldap_group: ""
 space-manager:
   ldap_users: []
