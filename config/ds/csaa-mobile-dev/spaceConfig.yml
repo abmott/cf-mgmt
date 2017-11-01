@@ -2,7 +2,9 @@ org: ds
 space: csaa-mobile-dev
 space-developer:
   ldap_users: []
-  users: []
+  users:
+  - dgudima
+  - bgray
   ldap_group: ""
 space-manager:
   ldap_users: []
