@@ -8,6 +8,7 @@ space-developer:
   - chitrak
   - jnimlos
   - hmahey
+  - alee
   ldap_group: ""
 space-manager:
   ldap_users: []
