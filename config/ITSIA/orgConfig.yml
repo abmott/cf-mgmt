@@ -18,5 +18,5 @@ memory-limit: 81920
 instance-memory-limit: -1
 total-routes: 1000
 total-services: 100
-paid-service-plans-allowed: false
+paid-service-plans-allowed: true
 enable-remove-users: true
