@@ -3,6 +3,7 @@ space: csaa-mobile-dev
 space-developer:
   ldap_users: []
   users:
+  - ci-mobile
   - dgudima
   - bgray
   ldap_group: ""

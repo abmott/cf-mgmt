@@ -3,6 +3,7 @@ space: iportal-dev
 space-developer:
   ldap_users: []
   users:
+  - ci-iportal
   - jdee
   - admin
   - amott
