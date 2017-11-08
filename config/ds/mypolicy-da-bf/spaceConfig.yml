@@ -16,6 +16,7 @@ space-developer:
   - bstuns
   - jnimlos
   - amcwatters
+  - esubbaiyan
   ldap_group: ""
 space-manager:
   ldap_users: []

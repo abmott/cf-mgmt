@@ -18,6 +18,7 @@ space-developer:
   - amott
   - rmedina
   - amcwatters
+  - esubbaiyan
   ldap_group: ""
 space-manager:
   ldap_users: []
