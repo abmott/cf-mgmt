@@ -36,3 +36,5 @@ spaces:
 - mypolicy-da-bf
 - envoy-dev
 - csaa-mobile-dev
+- csaa-mobile-evalue
+- csaa-mobile-perf
