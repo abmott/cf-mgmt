@@ -1,5 +1,5 @@
 org: PAS
-space: app1
+space: DXP DEV
 space-developer:
   ldap_users: []
   users:
