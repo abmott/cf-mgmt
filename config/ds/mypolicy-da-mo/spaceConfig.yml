@@ -19,6 +19,7 @@ space-developer:
   - amcwatters
   - esubbaiyan
   - dsaravanmuthu
+  - vjayakar
   ldap_group: ""
 space-manager:
   ldap_users: []
