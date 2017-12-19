@@ -7,7 +7,6 @@ space-developer:
   - agerankin
   - knorton
   - mpokharel
-  - amott
   ldap_group: ""
 space-manager:
   ldap_users: []
