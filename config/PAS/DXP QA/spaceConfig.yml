@@ -14,7 +14,8 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - pasauditor
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false

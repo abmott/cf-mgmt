@@ -10,7 +10,8 @@ org-manager:
   ldap_group: ""
 org-auditor:
   ldap_users: []
-  users: []
+  users:
+  - pasauditor
   ldap_group: ""
 enable-org-quota: true
 memory-limit: 20480
