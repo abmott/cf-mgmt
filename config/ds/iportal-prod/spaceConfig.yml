@@ -11,6 +11,7 @@ space-developer:
   - dgudima
   - jnimlos
   - chitrak
+  - spaige
   ldap_group: ""
 space-manager:
   ldap_users: []

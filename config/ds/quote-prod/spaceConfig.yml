@@ -12,6 +12,7 @@ space-developer:
   - bsnodgrass
   - kkanagaraj
   - chitrak
+  - spaige
   ldap_group: ""
 space-manager:
   ldap_users: []
