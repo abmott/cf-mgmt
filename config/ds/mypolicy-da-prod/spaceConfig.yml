@@ -13,6 +13,7 @@ space-developer:
   - dgudima
   - kperry
   - bmallick
+  - bstuns
   ldap_group: ""
 space-manager:
   ldap_users: []
