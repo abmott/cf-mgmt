@@ -3,10 +3,6 @@ space: PAS DOC DEV
 space-developer:
   ldap_users: []
   users:
-  - kcherukuri
-  - agerankin
-  - knorton
-  - mpokharel
   - jzhong
   - aromane
   ldap_group: ""
