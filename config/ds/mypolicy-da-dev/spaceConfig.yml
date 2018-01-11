@@ -30,6 +30,7 @@ space-developer:
   - esubbaiyan
   - dsaravanmuthu
   - vjayakar
+  - garogia
   ldap_group: ""
 space-manager:
   ldap_users: []
