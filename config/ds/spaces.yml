@@ -39,3 +39,6 @@ spaces:
 - csaa-mobile-evalue
 - csaa-mobile-perf
 - iportal-bf
+- qa-services-dev
+- qa-services-test
+- qa-services-prod
