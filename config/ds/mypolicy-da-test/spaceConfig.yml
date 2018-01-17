@@ -23,6 +23,7 @@ space-developer:
   - alee
   - dsaravanmuthu
   - vjayakar
+  - kkanagaraj
   ldap_group: ""
 space-manager:
   ldap_users: []
