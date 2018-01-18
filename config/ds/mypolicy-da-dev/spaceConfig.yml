@@ -3,24 +3,31 @@ space: mypolicy-da-dev
 space-developer:
   ldap_users: []
   users:
-  - swolfe
-  - alee
-  - kpatel
-  - kperry
   - kcampos
-  - jdee
-  - rkumar
-  - lita-concourse
-  - chitrak
-  - spaige
-  - dgudima
-  - jutter
   - amott
-  - jnimlos
-  - bstuns
-  - ci-mypolicy-da
+  - jdee
   - pbardzinski
   - tbenson
+  - alee
+  - spaige
+  - jutter
+  - lita-concourse
+  - ci-mypolicy-da
+  - dgudima
+  - jnimlos
+  - bstuns
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - chitrak
+  - kpatel
+  - kperry
+  - rkumar
   - bmallick
   - rjeffery
   - rmedina
@@ -32,20 +39,6 @@ space-developer:
   - vjayakar
   - garogia
   - kkanagaraj
-  ldap_group: ""
-space-manager:
-  ldap_users: []
-  users:
-  - jdee
-  - lita-concourse
-  - jnimlos
-  ldap_group: ""
-space-auditor:
-  ldap_users: []
-  users:
-  - jdee
-  - lita-concourse
-  - chitrak
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

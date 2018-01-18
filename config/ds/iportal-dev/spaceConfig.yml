@@ -5,19 +5,15 @@ space-developer:
   users:
   - ci-iportal
   - jdee
-  - admin
+  - pbardzinski
   - amott
   - kcampos
   - dgudima
   - jnimlos
-  - alee
-  - chitrak
+  - bstuns
   - spaige
-  - amcwatters
-  - hmahey
-  - dsaravanmuthu
-  - garogia
-  - kkanagaraj
+  - alee
+  - tbenson
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -25,7 +21,13 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - chitrak
+  - amcwatters
+  - hmahey
+  - dsaravanmuthu
+  - garogia
+  - kkanagaraj
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false
