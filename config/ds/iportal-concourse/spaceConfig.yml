@@ -1,0 +1,40 @@
+org: ds
+space: iportal-concourse
+space-developer:
+  ldap_users: []
+  users:
+  - ci-iportal
+  - jdee
+  - pbardzinski
+  - amott
+  - kcampos
+  - dgudima
+  - jnimlos
+  - bstuns
+  - spaige
+  - alee
+  - tbenson
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - chitrak
+  - amcwatters
+  - hmahey
+  - dsaravanmuthu
+  - garogia
+  - kkanagaraj
+  ldap_group: ""
+allow-ssh: false
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true

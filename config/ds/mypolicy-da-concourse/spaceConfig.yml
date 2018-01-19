@@ -1,0 +1,51 @@
+org: ds
+space: mypolicy-da-concourse
+space-developer:
+  ldap_users: []
+  users:
+  - kcampos
+  - amott
+  - jdee
+  - pbardzinski
+  - tbenson
+  - alee
+  - spaige
+  - jutter
+  - lita-concourse
+  - ci-mypolicy-da
+  - dgudima
+  - jnimlos
+  - bstuns
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - chitrak
+  - kpatel
+  - kperry
+  - rkumar
+  - bmallick
+  - rjeffery
+  - rmedina
+  - hmahey
+  - amcwatters
+  - jhirsch
+  - esubbaiyan
+  - dsaravanmuthu
+  - vjayakar
+  - garogia
+  - kkanagaraj
+  ldap_group: ""
+allow-ssh: false
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
