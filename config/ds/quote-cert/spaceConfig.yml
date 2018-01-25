@@ -15,6 +15,7 @@ space-developer:
   - chitrak
   - spaige
   - hmahey
+  - dsaravanmuthu
   ldap_group: ""
 space-manager:
   ldap_users: []

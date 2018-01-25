@@ -26,6 +26,7 @@ space-developer:
   - bmallick
   - kkanagaraj
   - hmahey
+  - dsaravanmuthu
   ldap_group: ""
 space-manager:
   ldap_users: []
