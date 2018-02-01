@@ -28,6 +28,8 @@ space-auditor:
   - dsaravanmuthu
   - garogia
   - kkanagaraj
+  - apillai
+  - abhaskarakurup
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false

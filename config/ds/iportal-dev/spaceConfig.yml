@@ -18,6 +18,8 @@ space-developer:
   - dsaravanmuthu
   - garogia
   - kkanagaraj
+  - apillai
+  - abhaskarakurup
   ldap_group: ""
 space-manager:
   ldap_users: []

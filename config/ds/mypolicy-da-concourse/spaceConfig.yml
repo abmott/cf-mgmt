@@ -39,6 +39,8 @@ space-auditor:
   - vjayakar
   - garogia
   - kkanagaraj
+  - apillai
+  - abhaskarakurup
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false

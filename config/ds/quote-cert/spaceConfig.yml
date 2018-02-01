@@ -16,6 +16,7 @@ space-developer:
   - spaige
   - hmahey
   - dsaravanmuthu
+  - nnair
   ldap_group: ""
 space-manager:
   ldap_users: []
