@@ -16,6 +16,7 @@ space-developer:
   - dgudima
   - jnimlos
   - bstuns
+  - rjeffery
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -29,7 +30,6 @@ space-auditor:
   - kperry
   - rkumar
   - bmallick
-  - rjeffery
   - rmedina
   - hmahey
   - amcwatters
