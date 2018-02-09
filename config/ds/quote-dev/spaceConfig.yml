@@ -21,7 +21,6 @@ space-developer:
   - jnimlos
   - rmedina
   - rjeffery
-  - chitrak
   - spaige
   - bmallick
   - kkanagaraj
@@ -44,7 +43,6 @@ space-auditor:
   users:
   - jutter
   - lita-concourse
-  - chitrak
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

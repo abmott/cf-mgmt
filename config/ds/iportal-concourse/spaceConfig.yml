@@ -23,7 +23,6 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - chitrak
   - amcwatters
   - hmahey
   - dsaravanmuthu

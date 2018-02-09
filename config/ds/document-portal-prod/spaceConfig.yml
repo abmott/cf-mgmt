@@ -6,7 +6,6 @@ space-developer:
   - jnimlos
   - bmallick
   - starve
-  - chitrak
   - spaige
   - alee
   ldap_group: ""
@@ -17,8 +16,7 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users:
-  - chitrak
+  users: []
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

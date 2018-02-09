@@ -7,7 +7,6 @@ space-developer:
   - kcampos
   - kpatel
   - ci-mypolicy-da
-  - chitrak
   - spaige
   - amott
   - dgudima
@@ -25,7 +24,6 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - chitrak
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

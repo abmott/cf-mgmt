@@ -18,7 +18,6 @@ space-developer:
   - jnimlos
   - bmallick
   - kkanagaraj
-  - chitrak
   - spaige
   - hmahey
   - dsaravanmuthu
@@ -34,7 +33,6 @@ space-auditor:
   ldap_users: []
   users:
   - jutter
-  - chitrak
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

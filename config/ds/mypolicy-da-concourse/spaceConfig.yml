@@ -25,7 +25,6 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - chitrak
   - kpatel
   - kperry
   - rkumar
