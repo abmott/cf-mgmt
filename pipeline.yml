@@ -19,7 +19,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
       USER_ID: {{prod_pdc_user_id}}
-      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: create-orgs
@@ -33,10 +32,8 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
       USER_ID: {{prod_pdc_user_id}}
-      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_pdc_client_secret}}
-      LDAP_PASSWORD: {{ldap_password}}
       CF_MGMT_COMMAND: create-spaces
 - name: prod-pdc-update-spaces
   plan:
@@ -48,7 +45,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
       USER_ID: {{prod_pdc_user_id}}
-      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: update-spaces
@@ -64,7 +60,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
       USER_ID: {{prod_pdc_user_id}}
-      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_pdc_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
@@ -79,7 +74,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
       USER_ID: {{prod_pdc_user_id}}
-      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: update-space-quotas
@@ -93,7 +87,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
       USER_ID: {{prod_pdc_user_id}}
-      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: update-space-security-groups
@@ -109,7 +102,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
       USER_ID: {{prod_pdc_user_id}}
-      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_pdc_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
@@ -124,7 +116,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_pdc_system_domain}}
       USER_ID: {{prod_pdc_user_id}}
-      PASSWORD: {{prod_pdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_pdc_client_secret}}
       CF_MGMT_COMMAND: update-org-quotas
@@ -137,7 +128,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
       USER_ID: {{prod_gdc_user_id}}
-      PASSWORD: {{prod_gdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_gdc_client_secret}}
       CF_MGMT_COMMAND: create-orgs
@@ -151,10 +141,8 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
       USER_ID: {{prod_gdc_user_id}}
-      PASSWORD: {{prod_gdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_gdc_client_secret}}
-      LDAP_PASSWORD: {{ldap_password}}
       CF_MGMT_COMMAND: create-spaces
 - name: prod-gdc-update-spaces
   plan:
@@ -166,7 +154,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
       USER_ID: {{prod_gdc_user_id}}
-      PASSWORD: {{prod_gdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_gdc_client_secret}}
       CF_MGMT_COMMAND: update-spaces
@@ -182,7 +169,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
       USER_ID: {{prod_gdc_user_id}}
-      PASSWORD: {{prod_gdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_gdc_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
@@ -197,7 +183,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
       USER_ID: {{prod_gdc_user_id}}
-      PASSWORD: {{prod_gdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_gdc_client_secret}}
       CF_MGMT_COMMAND: update-space-quotas
@@ -211,7 +196,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
       USER_ID: {{prod_gdc_user_id}}
-      PASSWORD: {{prod_gdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_gdc_client_secret}}
       CF_MGMT_COMMAND: update-space-security-groups
@@ -227,7 +211,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
       USER_ID: {{prod_gdc_user_id}}
-      PASSWORD: {{prod_gdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_gdc_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
@@ -242,7 +225,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{prod_gdc_system_domain}}
       USER_ID: {{prod_gdc_user_id}}
-      PASSWORD: {{prod_gdc_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{prod_gdc_client_secret}}
       CF_MGMT_COMMAND: update-org-quotas
@@ -255,7 +237,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{sandbox_system_domain}}
       USER_ID: {{sandbox_user_id}}
-      PASSWORD: {{sandbox_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{sandbox_client_secret}}
       CF_MGMT_COMMAND: create-orgs
@@ -269,10 +250,8 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{sandbox_system_domain}}
       USER_ID: {{sandbox_user_id}}
-      PASSWORD: {{sandbox_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{sandbox_client_secret}}
-      LDAP_PASSWORD: {{ldap_password}}
       CF_MGMT_COMMAND: create-spaces
 - name: sandbox-update-spaces
   plan:
@@ -284,7 +263,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{sandbox_system_domain}}
       USER_ID: {{sandbox_user_id}}
-      PASSWORD: {{sandbox_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{sandbox_client_secret}}
       CF_MGMT_COMMAND: update-spaces
@@ -300,7 +278,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{sandbox_system_domain}}
       USER_ID: {{sandbox_user_id}}
-      PASSWORD: {{sandbox_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{sandbox_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
@@ -315,7 +292,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{sandbox_system_domain}}
       USER_ID: {{sandbox_user_id}}
-      PASSWORD: {{sandbox_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{sandbox_client_secret}}
       CF_MGMT_COMMAND: update-space-quotas
@@ -329,7 +305,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{sandbox_system_domain}}
       USER_ID: {{sandbox_user_id}}
-      PASSWORD: {{sandbox_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{sandbox_client_secret}}
       CF_MGMT_COMMAND: update-space-security-groups
@@ -345,7 +320,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{sandbox_system_domain}}
       USER_ID: {{sandbox_user_id}}
-      PASSWORD: {{sandbox_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{sandbox_client_secret}}
       LDAP_PASSWORD: {{ldap_password}}
@@ -360,7 +334,6 @@ jobs:
     params:
       SYSTEM_DOMAIN: {{sandbox_system_domain}}
       USER_ID: {{sandbox_user_id}}
-      PASSWORD: {{sandbox_password}}
       CONFIG_DIR: ./config
       CLIENT_SECRET: {{sandbox_client_secret}}
       CF_MGMT_COMMAND: update-org-quotas
