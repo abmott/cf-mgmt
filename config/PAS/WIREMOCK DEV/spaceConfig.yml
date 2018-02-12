@@ -1,5 +1,5 @@
 org: PAS
-space: WIREMOCK
+space: WIREMOCK DEV
 space-developer:
   ldap_users: []
   users:
