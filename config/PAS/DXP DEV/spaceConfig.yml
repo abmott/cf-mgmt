@@ -7,6 +7,11 @@ space-developer:
   - agerankin
   - knorton
   - mpokharel
+  - vswaminathan
+  - csaravanakumar
+  - ksushma
+  - spalaniappan
+  - mvigneshwar
   ldap_group: ""
 space-manager:
   ldap_users: []

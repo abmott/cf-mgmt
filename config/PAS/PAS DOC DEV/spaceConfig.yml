@@ -9,6 +9,11 @@ space-developer:
   - mpokharel
   - jzhong
   - aromane
+  - vswaminathan
+  - csaravanakumar
+  - ksushma
+  - spalaniappan
+  - mvigneshwar
   ldap_group: ""
 space-manager:
   ldap_users: []
