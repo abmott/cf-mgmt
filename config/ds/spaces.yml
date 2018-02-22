@@ -30,6 +30,7 @@ spaces:
 - sonar-dev
 - sonar-prod
 - mypolicy-da-evalue
+- mypolicy-da-evalue2
 - iportal-evalue
 - mypolicy-da-mo
 - iportal-mo
