@@ -9,6 +9,7 @@ space-developer:
   - kcampos
   - dgudima
   - tbenson
+  - spaige
   ldap_group: ""
 space-manager:
   ldap_users: []
