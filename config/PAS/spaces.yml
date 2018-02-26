@@ -2,5 +2,6 @@ org: PAS
 spaces:
 - DXP DEV
 - DXP QA
+- DXP PERF
 - PAS DOC DEV
 - WIREMOCK DEV
