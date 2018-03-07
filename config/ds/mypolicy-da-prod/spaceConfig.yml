@@ -13,6 +13,7 @@ space-developer:
   - kperry
   - bmallick
   - bstuns
+  - dkumar
   - rjeffery
   ldap_group: ""
 space-manager:

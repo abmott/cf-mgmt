@@ -8,6 +8,7 @@ space-developer:
   - starve
   - spaige
   - alee
+  - dkumar
   ldap_group: ""
 space-manager:
   ldap_users: []

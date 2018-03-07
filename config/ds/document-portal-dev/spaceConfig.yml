@@ -9,6 +9,7 @@ space-developer:
   - jnimlos
   - hmahey
   - alee
+  - dkumar
   ldap_group: ""
 space-manager:
   ldap_users: []

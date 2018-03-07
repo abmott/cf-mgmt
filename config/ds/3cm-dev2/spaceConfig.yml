@@ -1,36 +1,12 @@
 org: ds
-space: mypolicy-da-mo
+space: 3cm-dev2
 space-developer:
   ldap_users: []
-  users:
-  - kcampos
-  - kpatel
-  - kperry
-  - ci-mypolicy-da
-  - rkumar
-  - dgudima
-  - spaige
-  - bmallick
-  - rjeffery
-  - bstuns
-  - dkumar
-  - rmedina
-  - hmahey
-  - jnimlos
-  - amcwatters
-  - esubbaiyan
-  - dsaravanmuthu
-  - vjayakar
-  - garogia
-  - kkanagaraj
-  - apillai
-  - abhaskarakurup
+  users: []
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - jnimlos
-  - kcampos
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []
