@@ -41,7 +41,6 @@ space-manager:
   - jdee
   - lita-concourse
   - jnimlos
-  - kperry
   ldap_group: ""
 space-auditor:
   ldap_users: []
