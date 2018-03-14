@@ -1,8 +1,10 @@
 org: c360
-space: c360
+space: c360-dev
 space-developer:
   ldap_users: []
-  users: []
+  users:
+  - vraman
+  - vshanmugavel
   ldap_group: ""
 space-manager:
   ldap_users: []
