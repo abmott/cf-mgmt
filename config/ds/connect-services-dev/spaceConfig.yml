@@ -12,7 +12,6 @@ space-developer:
   - lita-concourse
   - amott
   - ci-mypolicy-da
-  - rjeffery
   - jdee
   - hmahey
   ldap_group: ""
