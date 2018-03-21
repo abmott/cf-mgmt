@@ -10,6 +10,7 @@ space-developer:
   - bstuns
   - dkumar
   - hmahey
+  - esubbaiyan
   ldap_group: ""
 space-manager:
   ldap_users: []

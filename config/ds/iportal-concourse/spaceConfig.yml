@@ -16,6 +16,7 @@ space-developer:
   - alee
   - tbenson
   - jutter
+  - esubbaiyan
   ldap_group: ""
 space-manager:
   ldap_users: []

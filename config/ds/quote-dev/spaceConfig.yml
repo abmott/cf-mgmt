@@ -27,6 +27,7 @@ space-developer:
   - hmahey
   - dsaravanmuthu
   - nnair
+  - esubbaiyan
   ldap_group: ""
 space-manager:
   ldap_users: []
