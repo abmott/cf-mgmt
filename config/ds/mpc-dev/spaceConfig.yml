@@ -11,6 +11,7 @@ space-developer:
   - dkumar
   - hmahey
   - esubbaiyan
+  - skumar
   ldap_group: ""
 space-manager:
   ldap_users: []
