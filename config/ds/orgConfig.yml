@@ -18,6 +18,7 @@ org-auditor:
   ldap_users: []
   users:
   - dkumar
+  - skumar
   ldap_group: ""
 enable-org-quota: true
 memory-limit: 256000

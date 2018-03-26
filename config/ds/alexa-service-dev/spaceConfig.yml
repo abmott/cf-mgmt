@@ -6,6 +6,7 @@ space-developer:
   - jnimlos
   - hmahey
   - dkumar
+  - skumar
   ldap_group: ""
 space-manager:
   ldap_users: []

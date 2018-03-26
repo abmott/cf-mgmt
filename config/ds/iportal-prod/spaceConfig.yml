@@ -12,6 +12,7 @@ space-developer:
   - jnimlos
   - dkumar
   - spaige
+  - skumar
   ldap_group: ""
 space-manager:
   ldap_users: []

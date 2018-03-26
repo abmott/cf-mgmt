@@ -6,6 +6,7 @@ space-developer:
   - jnimlos
   - dkumar
   - ci-mypolicy-da
+  - skumar
   ldap_group: ""
 space-manager:
   ldap_users: []

@@ -14,6 +14,7 @@ space-developer:
   - bmallick
   - bstuns
   - dkumar
+  - skumar
   ldap_group: ""
 space-manager:
   ldap_users: []
