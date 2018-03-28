@@ -20,6 +20,8 @@ space-developer:
   - kperry
   - esubbaiyan
   - skumar
+  - hmahey
+  - dsaravanmuthu
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -33,11 +35,9 @@ space-auditor:
   - rkumar
   - bmallick
   - rmedina
-  - hmahey
   - amcwatters
   - jhirsch
   - esubbaiyan
-  - dsaravanmuthu
   - vjayakar
   - garogia
   - kkanagaraj
