@@ -15,7 +15,7 @@ space-developer:
   - admin
   - adam.mott@csaa.com
   - tbenson
-  - jutter
+  - john.utter@csaa.com
   - kcampos
   - rmedina
   - spaige
@@ -39,7 +39,7 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - jutter
+  - john.utter@csaa.com
   - lita-concourse
   ldap_group: ""
 allow-ssh: true
