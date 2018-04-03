@@ -3,7 +3,6 @@ space: ds_web-prod
 space-developer:
   ldap_users: []
   users:
-  - amott
   - adam.mott@csaa.com
   - mkelly
   - dkumar
@@ -12,7 +11,6 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - amott
   - adam.mott@csaa.com
   ldap_group: ""
 space-auditor:

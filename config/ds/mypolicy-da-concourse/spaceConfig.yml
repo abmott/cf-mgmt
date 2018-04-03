@@ -4,7 +4,6 @@ space-developer:
   ldap_users: []
   users:
   - kcampos
-  - amott
   - adam.mott@csaa.com
   - jdee
   - pbardzinski

@@ -13,7 +13,6 @@ space-developer:
   - jdee
   - lita-concourse
   - admin
-  - amott
   - adam.mott@csaa.com
   - tbenson
   - jutter
@@ -33,7 +32,7 @@ space-manager:
   users:
   - lita-concourse
   - admin
-  - amott
+  - adam.mott@csaa.com
   - jdee
   - pbardzinski
   ldap_group: ""

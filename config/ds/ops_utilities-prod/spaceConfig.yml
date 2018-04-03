@@ -5,7 +5,6 @@ space-developer:
   users:
   - jdee
   - admin
-  - amott
   - adam.mott@csaa.com
   - kcampos
   - dgudima
@@ -16,7 +15,6 @@ space-manager:
   ldap_users: []
   users:
   - admin
-  - amott
   - adam.mott@csaa.com
   - kcampos
   - jdee

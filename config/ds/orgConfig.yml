@@ -6,7 +6,6 @@ org-billingmanager:
 org-manager:
   ldap_users: []
   users:
-  - amott
   - adam.mott@csaa.com
   - kcampos
   - jdee
