@@ -4,6 +4,7 @@ space-developer:
   ldap_users: []
   users:
   - amott
+  - adam.mott@csaa.com
   - mkelly
   - hmahey
   - dkumar
@@ -13,6 +14,7 @@ space-manager:
   ldap_users: []
   users:
   - amott
+  - adam.mott@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []
