@@ -30,7 +30,7 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - john.utter@csaa.com
+  - jon.utter.csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
