@@ -15,7 +15,6 @@ space-developer:
   - dgudima
   - jutter
   - amott
-  - jnimlos
   - bstuns
   - dkumar
   - ci-mypolicy-da
@@ -42,7 +41,6 @@ space-manager:
   users:
   - jdee
   - lita-concourse
-  - jnimlos
   ldap_group: ""
 space-auditor:
   ldap_users: []

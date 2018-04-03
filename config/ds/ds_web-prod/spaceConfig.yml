@@ -4,7 +4,6 @@ space-developer:
   ldap_users: []
   users:
   - amott
-  - jnimlos
   - mkelly
   - dkumar
   - skumar

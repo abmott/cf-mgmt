@@ -3,7 +3,6 @@ space: mypolicy-da-test
 space-developer:
   ldap_users: []
   users:
-  - jnimlos
   - kcampos
   - kpatel
   - kperry
@@ -33,7 +32,6 @@ space-manager:
   ldap_users: []
   users:
   - kcampos
-  - jnimlos
   ldap_group: ""
 space-auditor:
   ldap_users: []

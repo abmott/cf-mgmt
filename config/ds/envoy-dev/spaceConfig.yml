@@ -15,11 +15,9 @@ space-developer:
   - lita-concourse
   - admin
   - amott
-  - bstilwell
   - tbenson
   - jutter
   - kcampos
-  - jnimlos
   - rmedina
   - spaige
   - bmallick
@@ -33,7 +31,6 @@ space-manager:
   - lita-concourse
   - admin
   - amott
-  - jnimlos
   - jdee
   - pbardzinski
   ldap_group: ""

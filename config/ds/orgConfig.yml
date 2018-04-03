@@ -7,7 +7,6 @@ org-manager:
   ldap_users: []
   users:
   - amott
-  - jnimlos
   - kcampos
   - jdee
   - pbardzinski

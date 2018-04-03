@@ -5,7 +5,6 @@ space-developer:
   users:
   - jdee
   - ci-mypolicy-da
-  - jnimlos
   - bstuns
   - dkumar
   - skumar
@@ -13,7 +12,6 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - jnimlos
   - jdee
   ldap_group: ""
 space-auditor:

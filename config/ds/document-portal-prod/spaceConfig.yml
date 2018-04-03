@@ -3,7 +3,6 @@ space: document-portal-prod
 space-developer:
   ldap_users: []
   users:
-  - jnimlos
   - bmallick
   - starve
   - spaige
@@ -13,8 +12,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - jnimlos
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

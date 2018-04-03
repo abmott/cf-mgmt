@@ -23,12 +23,10 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - jnimlos
   - jhirsch
   - rmedina
   - swolfe
   - bstuns
-  - bstilwell
   - dsaravanmuthu
   ldap_group: ""
 allow-ssh: true

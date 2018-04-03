@@ -14,7 +14,6 @@ space-developer:
   - hmahey
   - bstuns
   - dkumar
-  - jnimlos
   - amcwatters
   - esubbaiyan
   - dsaravanmuthu
@@ -31,7 +30,6 @@ space-manager:
   ldap_users: []
   users:
   - kcampos
-  - jnimlos
   ldap_group: ""
 space-auditor:
   ldap_users: []

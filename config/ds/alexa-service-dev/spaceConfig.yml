@@ -3,7 +3,6 @@ space: alexa-service-dev
 space-developer:
   ldap_users: []
   users:
-  - jnimlos
   - hmahey
   - dkumar
   - skumar
@@ -11,7 +10,7 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - jnimlos
+  - hmahey
   ldap_group: ""
 space-auditor:
   ldap_users: []

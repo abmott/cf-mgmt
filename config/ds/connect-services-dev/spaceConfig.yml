@@ -3,7 +3,6 @@ space: connect-services-dev
 space-developer:
   ldap_users: []
   users:
-  - jnimlos
   - kcampos
   - bstuns
   - dkumar
@@ -19,7 +18,7 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - jnimlos
+  - hmahey
   - lita-concourse
   - ci-mypolicy-da
   ldap_group: ""

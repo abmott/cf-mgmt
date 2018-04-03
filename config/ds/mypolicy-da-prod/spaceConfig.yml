@@ -3,7 +3,6 @@ space: mypolicy-da-prod
 space-developer:
   ldap_users: []
   users:
-  - jnimlos
   - kcampos
   - kpatel
   - ci-mypolicy-da
@@ -20,12 +19,11 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - jnimlos
   - kcampos
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users:
+  users: []
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
