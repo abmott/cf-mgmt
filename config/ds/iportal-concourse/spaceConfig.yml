@@ -17,6 +17,7 @@ space-developer:
   - jon.utter@csaa.com
   - esubbaiyan
   - skumar
+  - ryan.medina@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

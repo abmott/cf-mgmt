@@ -21,6 +21,7 @@ space-developer:
   - skumar
   - nnair
   - dilipkumar
+  - ryan.medina@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

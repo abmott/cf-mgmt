@@ -5,7 +5,7 @@ space-developer:
   users:
   - ci-iportal
   - jdee
-  - admin  
+  - admin
   - adam.mott@csaa.com
   - kcampos
   - dgudima
@@ -21,6 +21,7 @@ space-developer:
   - skumar
   - nnair
   - dilipkumar
+  - ryan.medina@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
