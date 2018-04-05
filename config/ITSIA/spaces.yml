@@ -8,3 +8,11 @@ spaces:
 - cccm-prod
 - cccm-qa
 - cccm-qa2
+- shub-dev
+- shub-test
+- shub-dev2
+- shub-deve2e
+- shub-e2e
+- shub-perf
+- shub-qa
+- shub-qa2
