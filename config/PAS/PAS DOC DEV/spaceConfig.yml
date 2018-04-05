@@ -4,7 +4,6 @@ space-developer:
   ldap_users: []
   users:
   - kcherukuri
-  - agerankin
   - knorton
   - mpokharel
   - jzhong
@@ -13,6 +12,7 @@ space-developer:
   - ksushma
   - spalaniappan
   - mvigneshwar
+  - aiga.romane@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

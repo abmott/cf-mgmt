@@ -4,7 +4,6 @@ space-developer:
   ldap_users: []
   users:
   - kcherukuri
-  - agerankin
   - knorton
   - mpokharel
   - vswaminathan
