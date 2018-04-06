@@ -5,7 +5,7 @@ space-developer:
   users:
   - admin
   - ci-quote-2
-  - kcampos
+  - kyle.campos@csaa.com
   - bstuns
   - dkumar
   - ryan.medina@csaa.com
@@ -22,7 +22,7 @@ space-manager:
   ldap_users: []
   users:
   - admin
-  - kcampos
+  - kyle.campos@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []

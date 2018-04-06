@@ -3,7 +3,7 @@ space: mypolicy-da-concourse
 space-developer:
   ldap_users: []
   users:
-  - kcampos
+  - kyle.campos@csaa.com
   - adam.mott@csaa.com
   - john.dee@csaa.com
   - pbardzinski

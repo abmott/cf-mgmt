@@ -5,7 +5,7 @@ space-developer:
   users:
   - admin
   - adam.mott@csaa.com
-  - kcampos
+  - kyle.campos@csaa.com
   - john.dee@csaa.com
   - pbardzinski
   ldap_group: ""
@@ -14,7 +14,7 @@ space-manager:
   users:
   - admin
   - adam.mott@csaa.com
-  - kcampos
+  - kyle.campos@csaa.com
   - john.dee@csaa.com
   - pbardzinski
   ldap_group: ""

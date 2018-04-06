@@ -6,7 +6,7 @@ space-developer:
   - john.dee@csaa.com
   - admin
   - adam.mott@csaa.com
-  - kcampos
+  - kyle.campos@csaa.com
   - dgudima
   - tbenson
   - spaige
@@ -16,7 +16,7 @@ space-manager:
   users:
   - admin
   - adam.mott@csaa.com
-  - kcampos
+  - kyle.campos@csaa.com
   - john.dee@csaa.com
   ldap_group: ""
 space-auditor:

@@ -3,7 +3,7 @@ space: mypolicy-da-bf
 space-developer:
   ldap_users: []
   users:
-  - kcampos
+  - kyle.campos@csaa.com
   - kpatel
   - kperry
   - ci-mypolicy-da
@@ -29,7 +29,7 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - kcampos
+  - kyle.campos@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []

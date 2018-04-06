@@ -7,7 +7,7 @@ org-manager:
   ldap_users: []
   users:
   - adam.mott@csaa.com
-  - kcampos
+  - kyle.campos@csaa.com
   - john.dee@csaa.com
   - pbardzinski
   - lita-concourse
