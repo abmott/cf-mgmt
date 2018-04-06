@@ -9,7 +9,7 @@ org-manager:
   - adam.mott@csaa.com
   - kyle.campos@csaa.com
   - john.dee@csaa.com
-  - pbardzinski
+  - pawel.bardzinski@csaa.com
   - lita-concourse
   - admin
   ldap_group: ""

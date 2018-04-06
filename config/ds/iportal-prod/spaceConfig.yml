@@ -13,7 +13,7 @@ space-developer:
   - spaige
   - skumar
   - kkanagaraj
-  - pbardzinski
+  - pawel.bardzinski@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

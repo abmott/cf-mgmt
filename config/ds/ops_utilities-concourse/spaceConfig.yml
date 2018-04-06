@@ -7,14 +7,14 @@ space-developer:
   - adam.mott@csaa.com
   - kyle.campos@csaa.com
   - john.dee@csaa.com
-  - pbardzinski
+  - pawel.bardzinski@csaa.com
   - lita-concourse
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
   - john.dee@csaa.com
-  - pbardzinski
+  - pawel.bardzinski@csaa.com
   - lita-concourse
   - admin
   - adam.mott@csaa.com

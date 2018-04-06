@@ -5,7 +5,7 @@ space-developer:
   users:
   - bsnodgrass
   - ci-quote-2
-  - pbardzinski
+  - pawel.bardzinski@csaa.com
   - ryan.medina@csaa.com
   - bstuns
   - dkumar
@@ -25,7 +25,7 @@ space-manager:
   ldap_users: []
   users:
   - admin
-  - pbardzinski
+  - pawel.bardzinski@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []

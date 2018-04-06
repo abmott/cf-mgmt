@@ -3,7 +3,7 @@ space: quote-dev
 space-developer:
   ldap_users: []
   users:
-  - pbardzinski
+  - pawel.bardzinski@csaa.com
   - swolfe
   - bstuns
   - dkumar
@@ -34,7 +34,7 @@ space-manager:
   - admin
   - adam.mott@csaa.com
   - john.dee@csaa.com
-  - pbardzinski
+  - pawel.bardzinski@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []
