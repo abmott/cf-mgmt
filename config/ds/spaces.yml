@@ -53,7 +53,7 @@ spaces:
 - 3cm-prod
 - 3cm-qa
 - 3cm-qa2
-- claimsrideshare-dev
-- claimsrideshare-test
-- claimsrideshare-qa
-- claimsrideshare-prod
+- claims-rideshare-dev
+- claims-rideshare-test
+- claims-rideshare-qa
+- claims-rideshare-prod

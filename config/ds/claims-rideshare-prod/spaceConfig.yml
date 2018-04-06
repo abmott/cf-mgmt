@@ -1,5 +1,5 @@
 org: ds
-space: claimsrideshare-qa
+space: claims-rideshare-prod
 space-developer:
   ldap_users: []
   users:
