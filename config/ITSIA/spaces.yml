@@ -11,7 +11,6 @@ spaces:
 - shub-dev
 - shub-test
 - shub-dev2
-- shub-deve2e
 - shub-e2e
 - shub-perf
 - shub-qa
