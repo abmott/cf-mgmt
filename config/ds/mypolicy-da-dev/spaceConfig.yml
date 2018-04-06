@@ -8,7 +8,7 @@ space-developer:
   - kpatel
   - kperry
   - kcampos
-  - jdee
+  - john.dee@csaa.com
   - rkumar
   - lita-concourse
   - spaige
@@ -38,13 +38,13 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - jdee
+  - john.dee@csaa.com
   - lita-concourse
   ldap_group: ""
 space-auditor:
   ldap_users: []
   users:
-  - jdee
+  - john.dee@csaa.com
   - lita-concourse
   ldap_group: ""
 allow-ssh: true

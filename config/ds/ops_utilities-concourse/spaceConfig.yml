@@ -3,17 +3,17 @@ space: ops_utilities-concourse
 space-developer:
   ldap_users: []
   users:
-  - admin  
+  - admin
   - adam.mott@csaa.com
   - kcampos
-  - jdee
+  - john.dee@csaa.com
   - pbardzinski
   - lita-concourse
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - jdee
+  - john.dee@csaa.com
   - pbardzinski
   - lita-concourse
   - admin

@@ -10,7 +10,7 @@ space-developer:
   - bsnodgrass
   - alee
   - ci-quote-2
-  - jdee
+  - john.dee@csaa.com
   - lita-concourse
   - admin
   - adam.mott@csaa.com
@@ -33,7 +33,7 @@ space-manager:
   - lita-concourse
   - admin
   - adam.mott@csaa.com
-  - jdee
+  - john.dee@csaa.com
   - pbardzinski
   ldap_group: ""
 space-auditor:

@@ -6,7 +6,7 @@ space-developer:
   - admin
   - adam.mott@csaa.com
   - kcampos
-  - jdee
+  - john.dee@csaa.com
   - pbardzinski
   ldap_group: ""
 space-manager:
@@ -15,7 +15,7 @@ space-manager:
   - admin
   - adam.mott@csaa.com
   - kcampos
-  - jdee
+  - john.dee@csaa.com
   - pbardzinski
   ldap_group: ""
 space-auditor:

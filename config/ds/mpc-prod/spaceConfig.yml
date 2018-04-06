@@ -3,7 +3,7 @@ space: mpc-prod
 space-developer:
   ldap_users: []
   users:
-  - jdee
+  - john.dee@csaa.com
   - ci-mypolicy-da
   - bstuns
   - dkumar
@@ -12,12 +12,12 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - jdee
+  - john.dee@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []
   users:
-  - jdee
+  - john.dee@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
