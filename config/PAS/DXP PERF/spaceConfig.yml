@@ -4,11 +4,11 @@ space-developer:
   ldap_users: []
   users:
   - knorton
-  - mpokharel
-  - csaravanakumar
-  - ksushma
-  - spalaniappan
-  - mvigneshwar
+  - manoj.pokharel@csaa.com
+  - saravanakumar.c@csaa.com
+  - sushma.koni@csaa.com
+  - palaniappan.subbiah@csaa.com
+  - vigneshwar.maruthavanan@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

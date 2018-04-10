@@ -12,7 +12,7 @@ space-developer:
   - admin
   - brian.w.snodgrass@csaa.com
   - karthik.kanagaraj@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -24,7 +24,7 @@ space-auditor:
   ldap_users: []
   users:
   - ryan.medina@csaa.com
-  - swolfe
+  - sean.wolfe@csaa.com
   - brant.stuns@csaa.com
   - divya.saravanamuthu@csaa.com
   ldap_group: ""

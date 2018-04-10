@@ -3,7 +3,7 @@ space: mypolicy-da-dev
 space-developer:
   ldap_users: []
   users:
-  - swolfe
+  - sean.wolfe@csaa.com
   - anthony.lee@csaa.com
   - kpatel
   - kperry
@@ -11,7 +11,7 @@ space-developer:
   - john.dee@csaa.com
   - rkumar
   - lita-concourse
-  - spaige
+  - scott.paige@csaa.com
   - dumitru.gudima@csaa.com
   - jon.utter@csaa.com
   - adam.mott@csaa.com
@@ -19,20 +19,20 @@ space-developer:
   - dhirender.kumar@csaa.com
   - ci-mypolicy-da
   - pawel.bardzinski@csaa.com
-  - tbenson
+  - todd.benson@csaa.com
   - birabrat.mallick@csaa.com
   - ryan.medina@csaa.com
   - harsh.mahey@csaa.com
   - amcwatters
   - elumala.subbaiyan@csaa.com
   - divya.saravanamuthu@csaa.com
-  - vjayakar
+  - vimal.jayakar@csaa.com
   - george.arogia@csaa.com
   - karthik.kanagaraj@csaa.com
   - anu.pillai@csaa.com
   - anooj.bhaskarakurup@csaa.com
-  - skumar
-  - nnair
+  - samar.kumar@csaa.com
+  - nidhin.nair@csaa.com
   - dilip.kumar.r@csaa.com
   ldap_group: ""
 space-manager:

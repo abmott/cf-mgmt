@@ -7,9 +7,9 @@ space-developer:
   - adam.mott@csaa.com
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
-  - tbenson
+  - todd.benson@csaa.com
   - anthony.lee@csaa.com
-  - spaige
+  - scott.paige@csaa.com
   - jon.utter@csaa.com
   - lita-concourse
   - ci-mypolicy-da
@@ -18,7 +18,7 @@ space-developer:
   - dhirender.kumar@csaa.com
   - kperry
   - elumala.subbaiyan@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   - harsh.mahey@csaa.com
   - divya.saravanamuthu@csaa.com
   ldap_group: ""
@@ -36,7 +36,7 @@ space-auditor:
   - ryan.medina@csaa.com
   - amcwatters
   - elumala.subbaiyan@csaa.com
-  - vjayakar
+  - vimal.jayakar@csaa.com
   - george.arogia@csaa.com
   - karthik.kanagaraj@csaa.com
   - anu.pillai@csaa.com

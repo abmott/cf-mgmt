@@ -12,11 +12,11 @@ space-developer:
   - brian.w.snodgrass@csaa.com
   - birabrat.mallick@csaa.com
   - karthik.kanagaraj@csaa.com
-  - spaige
+  - scott.paige@csaa.com
   - harsh.mahey@csaa.com
   - divya.saravanamuthu@csaa.com
-  - nnair
-  - skumar
+  - nidhin.nair@csaa.com
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

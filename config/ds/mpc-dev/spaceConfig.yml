@@ -10,7 +10,7 @@ space-developer:
   - dhirender.kumar@csaa.com
   - harsh.mahey@csaa.com
   - elumala.subbaiyan@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

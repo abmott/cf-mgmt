@@ -6,14 +6,14 @@ space-developer:
   - kyle.campos@csaa.com
   - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
-  - tbenson
+  - todd.benson@csaa.com
   - kperry
   - lita-concourse
   - adam.mott@csaa.com
   - ci-mypolicy-da
   - john.dee@csaa.com
   - harsh.mahey@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

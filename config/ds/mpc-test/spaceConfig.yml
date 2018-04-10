@@ -8,7 +8,7 @@ space-developer:
   - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
   - harsh.mahey@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

@@ -17,7 +17,7 @@ org-auditor:
   ldap_users: []
   users:
   - dhirender.kumar@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   ldap_group: ""
 enable-org-quota: true
 memory-limit: 256000

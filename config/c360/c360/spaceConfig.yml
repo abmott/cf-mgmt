@@ -3,8 +3,8 @@ space: c360-dev
 space-developer:
   ldap_users: []
   users:
-  - vraman
-  - vshanmugavel
+  - vijayanand.raman@csaa.com
+  - vairavel.shanmugavel@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

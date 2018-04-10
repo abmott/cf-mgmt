@@ -3,15 +3,15 @@ space: PAS DOC DEV
 space-developer:
   ldap_users: []
   users:
-  - kcherukuri
+  - kusuma.cherukuri@csaa.com
   - knorton
-  - mpokharel
-  - jzhong
+  - manoj.pokharel@csaa.com
+  - jacky.zhong@csaa.com
   - vswaminathan
-  - csaravanakumar
-  - ksushma
-  - spalaniappan
-  - mvigneshwar
+  - saravanakumar.c@csaa.com
+  - sushma.koni@csaa.com
+  - palaniappan.subbiah@csaa.com
+  - vigneshwar.maruthavanan@csaa.com
   - aiga.romane@csaa.com
   ldap_group: ""
 space-manager:

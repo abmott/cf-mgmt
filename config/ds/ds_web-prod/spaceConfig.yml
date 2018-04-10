@@ -6,7 +6,7 @@ space-developer:
   - adam.mott@csaa.com
   - mkelly
   - dhirender.kumar@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

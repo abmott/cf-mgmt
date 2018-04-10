@@ -4,14 +4,14 @@ space-developer:
   ldap_users: []
   users:
   - dhirender.kumar@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   - harsh.mahey@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
   - dhirender.kumar@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   - harsh.mahey@csaa.com
   ldap_group: ""
 space-auditor:

@@ -3,15 +3,15 @@ space: WIREMOCK DEV
 space-developer:
   ldap_users: []
   users:
-  - kcherukuri
-  - agerankin
+  - kusuma.cherukuri@csaa.com
+  - andrey.gerankin@csaa.com
   - knorton
-  - mpokharel
+  - manoj.pokharel@csaa.com
   - vswaminathan
-  - csaravanakumar
-  - ksushma
-  - spalaniappan
-  - mvigneshwar
+  - saravanakumar.c@csaa.com
+  - sushma.koni@csaa.com
+  - palaniappan.subbiah@csaa.com
+  - vigneshwar.maruthavanan@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

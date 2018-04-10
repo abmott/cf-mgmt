@@ -8,8 +8,8 @@ space-developer:
   - adam.mott@csaa.com
   - kyle.campos@csaa.com
   - dumitru.gudima@csaa.com
-  - tbenson
-  - spaige
+  - todd.benson@csaa.com
+  - scott.paige@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

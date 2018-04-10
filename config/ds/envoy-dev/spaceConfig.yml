@@ -4,7 +4,7 @@ space-developer:
   ldap_users: []
   users:
   - pawel.bardzinski@csaa.com
-  - swolfe
+  - sean.wolfe@csaa.com
   - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
   - brian.w.snodgrass@csaa.com
@@ -14,15 +14,15 @@ space-developer:
   - lita-concourse
   - admin
   - adam.mott@csaa.com
-  - tbenson
+  - todd.benson@csaa.com
   - jon.utter@csaa.com
   - kyle.campos@csaa.com
   - ryan.medina@csaa.com
-  - spaige
+  - scott.paige@csaa.com
   - birabrat.mallick@csaa.com
   - karthik.kanagaraj@csaa.com
   - harsh.mahey@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

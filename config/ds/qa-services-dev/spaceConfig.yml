@@ -3,7 +3,7 @@ space: qa-services-dev
 space-developer:
   ldap_users: []
   users:
-  - swolfe
+  - sean.wolfe@csaa.com
   - jon.utter@csaa.com
   ldap_group: ""
 space-manager:

@@ -5,11 +5,11 @@ space-developer:
   users:
   - birabrat.mallick@csaa.com
   - starve
-  - spaige
+  - scott.paige@csaa.com
   - harsh.mahey@csaa.com
   - anthony.lee@csaa.com
   - dhirender.kumar@csaa.com
-  - skumar
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
