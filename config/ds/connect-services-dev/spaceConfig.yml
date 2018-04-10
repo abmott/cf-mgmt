@@ -5,20 +5,20 @@ space-developer:
   users:
   - kyle.campos@csaa.com
   - bstuns
-  - dkumar
+  - dhirender.kumar@csaa.com
   - tbenson
   - kperry
   - lita-concourse
   - adam.mott@csaa.com
   - ci-mypolicy-da
   - john.dee@csaa.com
-  - hmahey
+  - harsh.mahey@csaa.com
   - skumar
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - hmahey
+  - harsh.mahey@csaa.com
   - lita-concourse
   - ci-mypolicy-da
   ldap_group: ""

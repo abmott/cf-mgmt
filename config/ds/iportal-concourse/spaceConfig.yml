@@ -10,12 +10,12 @@ space-developer:
   - kyle.campos@csaa.com
   - dgudima
   - bstuns
-  - dkumar
+  - dhirender.kumar@csaa.com
   - spaige
   - anthony.lee@csaa.com
   - tbenson
   - jon.utter@csaa.com
-  - esubbaiyan
+  - elumala.subbaiyan@csaa.com
   - skumar
   - ryan.medina@csaa.com
   ldap_group: ""
@@ -27,10 +27,10 @@ space-auditor:
   ldap_users: []
   users:
   - amcwatters
-  - hmahey
-  - dsaravanmuthu
-  - garogia
-  - kkanagaraj
+  - harsh.mahey@csaa.com
+  - divya.saravanamuthu@csaa.com
+  - george.arogia@csaa.com
+  - karthik.kanagaraj@csaa.com
   - anu.pillai@csaa.com
   - anooj.bhaskarakurup@csaa.com
   ldap_group: ""

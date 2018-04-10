@@ -6,8 +6,8 @@ space-developer:
   - ci-mypolicy-da
   - john.dee@csaa.com
   - bstuns
-  - dkumar
-  - hmahey
+  - dhirender.kumar@csaa.com
+  - harsh.mahey@csaa.com
   - skumar
   ldap_group: ""
 space-manager:

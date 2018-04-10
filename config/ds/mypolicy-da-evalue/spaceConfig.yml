@@ -16,24 +16,24 @@ space-developer:
   - jon.utter@csaa.com
   - adam.mott@csaa.com
   - bstuns
-  - dkumar
+  - dhirender.kumar@csaa.com
   - ci-mypolicy-da
   - pawel.bardzinski@csaa.com
   - tbenson
   - birabrat.mallick@csaa.com
   - ryan.medina@csaa.com
-  - hmahey
+  - harsh.mahey@csaa.com
   - amcwatters
-  - esubbaiyan
-  - dsaravanmuthu
+  - elumala.subbaiyan@csaa.com
+  - divya.saravanamuthu@csaa.com
   - vjayakar
-  - garogia
-  - kkanagaraj
+  - george.arogia@csaa.com
+  - karthik.kanagaraj@csaa.com
   - anu.pillai@csaa.com
   - anooj.bhaskarakurup@csaa.com
   - skumar
   - nnair
-  - dilipkumar
+  - dilip.kumar.r@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

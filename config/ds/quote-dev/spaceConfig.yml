@@ -6,8 +6,8 @@ space-developer:
   - pawel.bardzinski@csaa.com
   - swolfe
   - bstuns
-  - dkumar
-  - bsnodgrass
+  - dhirender.kumar@csaa.com
+  - brian.w.snodgrass@csaa.com
   - anthony.lee@csaa.com
   - ci-quote-2
   - john.dee@csaa.com
@@ -20,11 +20,11 @@ space-developer:
   - ryan.medina@csaa.com
   - spaige
   - birabrat.mallick@csaa.com
-  - kkanagaraj
-  - hmahey
-  - dsaravanmuthu
+  - karthik.kanagaraj@csaa.com
+  - harsh.mahey@csaa.com
+  - divya.saravanamuthu@csaa.com
   - nnair
-  - esubbaiyan
+  - elumala.subbaiyan@csaa.com
   - skumar
   ldap_group: ""
 space-manager:

@@ -12,9 +12,9 @@ space-developer:
   - kperry
   - birabrat.mallick@csaa.com
   - bstuns
-  - dkumar
+  - dhirender.kumar@csaa.com
   - skumar
-  - kkanagaraj
+  - karthik.kanagaraj@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

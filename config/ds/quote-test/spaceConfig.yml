@@ -3,21 +3,21 @@ space: quote-test
 space-developer:
   ldap_users: []
   users:
-  - bsnodgrass
+  - brian.w.snodgrass@csaa.com
   - ci-quote-2
   - pawel.bardzinski@csaa.com
   - ryan.medina@csaa.com
   - bstuns
-  - dkumar
+  - dhirender.kumar@csaa.com
   - swolfe
   - admin
   - adam.mott@csaa.com
   - john.dee@csaa.com
   - birabrat.mallick@csaa.com
-  - kkanagaraj
+  - karthik.kanagaraj@csaa.com
   - spaige
-  - hmahey
-  - dsaravanmuthu
+  - harsh.mahey@csaa.com
+  - divya.saravanamuthu@csaa.com
   - nnair
   - skumar
   ldap_group: ""

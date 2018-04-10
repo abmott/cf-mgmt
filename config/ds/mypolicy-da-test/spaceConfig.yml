@@ -12,21 +12,21 @@ space-developer:
   - spaige
   - birabrat.mallick@csaa.com
   - bstuns
-  - dkumar
-  - hmahey  
+  - dhirender.kumar@csaa.com
+  - harsh.mahey@csaa.com  
   - adam.mott@csaa.com
   - ryan.medina@csaa.com
   - amcwatters
-  - esubbaiyan
+  - elumala.subbaiyan@csaa.com
   - anthony.lee@csaa.com
-  - dsaravanmuthu
+  - divya.saravanamuthu@csaa.com
   - vjayakar
-  - kkanagaraj
+  - karthik.kanagaraj@csaa.com
   - anu.pillai@csaa.com
   - anooj.bhaskarakurup@csaa.com
   - skumar
   - nnair
-  - dilipkumar
+  - dilip.kumar.r@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

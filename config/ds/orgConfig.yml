@@ -16,7 +16,7 @@ org-manager:
 org-auditor:
   ldap_users: []
   users:
-  - dkumar
+  - dhirender.kumar@csaa.com
   - skumar
   ldap_group: ""
 enable-org-quota: true

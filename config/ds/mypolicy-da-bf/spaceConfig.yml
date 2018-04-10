@@ -11,20 +11,20 @@ space-developer:
   - dgudima
   - spaige
   - birabrat.mallick@csaa.com
-  - hmahey
+  - harsh.mahey@csaa.com
   - bstuns
-  - dkumar
+  - dhirender.kumar@csaa.com
   - amcwatters
-  - esubbaiyan
-  - dsaravanmuthu
+  - elumala.subbaiyan@csaa.com
+  - divya.saravanamuthu@csaa.com
   - vjayakar
-  - garogia
-  - kkanagaraj
+  - george.arogia@csaa.com
+  - karthik.kanagaraj@csaa.com
   - anu.pillai@csaa.com
   - anooj.bhaskarakurup@csaa.com
   - skumar
   - nnair
-  - dilipkumar
+  - dilip.kumar.r@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

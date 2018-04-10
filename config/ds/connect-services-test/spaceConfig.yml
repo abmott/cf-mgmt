@@ -3,9 +3,9 @@ space: connect-services-test
 space-developer:
   ldap_users: []
   users:
-  - dkumar
+  - dhirender.kumar@csaa.com
   - ci-mypolicy-da
-  - hmahey
+  - harsh.mahey@csaa.com
   - skumar
   ldap_group: ""
 space-manager:
