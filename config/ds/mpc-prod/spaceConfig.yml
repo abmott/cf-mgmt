@@ -5,7 +5,7 @@ space-developer:
   users:
   - john.dee@csaa.com
   - ci-mypolicy-da
-  - bstuns
+  - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
   - skumar
   ldap_group: ""

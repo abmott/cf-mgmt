@@ -7,7 +7,7 @@ space-developer:
   - adam.mott@csaa.com
   - kyle.campos@csaa.com
   - john.dee@csaa.com
-  - bstuns
+  - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
   - admin
   - brian.w.snodgrass@csaa.com
@@ -25,7 +25,7 @@ space-auditor:
   users:
   - ryan.medina@csaa.com
   - swolfe
-  - bstuns
+  - brant.stuns@csaa.com
   - divya.saravanamuthu@csaa.com
   ldap_group: ""
 allow-ssh: true
