@@ -26,7 +26,6 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - amcwatters
   - harsh.mahey@csaa.com
   - divya.saravanamuthu@csaa.com
   - george.arogia@csaa.com

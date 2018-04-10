@@ -4,8 +4,6 @@ space-developer:
   ldap_users: []
   users:
   - kyle.campos@csaa.com
-  - kpatel
-  - kperry
   - ci-mypolicy-da
   - rkumar
   - dumitru.gudima@csaa.com
@@ -15,7 +13,6 @@ space-developer:
   - dhirender.kumar@csaa.com
   - ryan.medina@csaa.com
   - harsh.mahey@csaa.com
-  - amcwatters
   - elumala.subbaiyan@csaa.com
   - divya.saravanamuthu@csaa.com
   - vimal.jayakar@csaa.com

@@ -16,7 +16,6 @@ space-developer:
   - dumitru.gudima@csaa.com
   - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
-  - kperry
   - elumala.subbaiyan@csaa.com
   - samar.kumar@csaa.com
   - harsh.mahey@csaa.com
@@ -29,12 +28,9 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - kpatel
-  - kperry
   - rkumar
   - birabrat.mallick@csaa.com
   - ryan.medina@csaa.com
-  - amcwatters
   - elumala.subbaiyan@csaa.com
   - vimal.jayakar@csaa.com
   - george.arogia@csaa.com

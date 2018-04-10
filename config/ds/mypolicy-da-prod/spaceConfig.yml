@@ -4,12 +4,10 @@ space-developer:
   ldap_users: []
   users:
   - kyle.campos@csaa.com
-  - kpatel
   - ci-mypolicy-da
-  - scott.paige@csaa.com  
+  - scott.paige@csaa.com
   - adam.mott@csaa.com
   - dumitru.gudima@csaa.com
-  - kperry
   - birabrat.mallick@csaa.com
   - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
