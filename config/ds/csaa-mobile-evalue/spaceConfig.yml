@@ -5,8 +5,8 @@ space-developer:
   users:
   - ci-mobile
   - dgudima
-  - bgray
-  - alee
+  - brandon.gray@csaa.com
+  - anthony.lee@csaa.com
   - dkumar
   - skumar
   ldap_group: ""

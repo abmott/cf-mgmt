@@ -4,7 +4,7 @@ space-developer:
   ldap_users: []
   users:
   - swolfe
-  - alee
+  - anthony.lee@csaa.com
   - kpatel
   - kperry
   - kyle.campos@csaa.com
@@ -20,7 +20,7 @@ space-developer:
   - ci-mypolicy-da
   - pawel.bardzinski@csaa.com
   - tbenson
-  - bmallick
+  - birabrat.mallick@csaa.com
   - ryan.medina@csaa.com
   - hmahey
   - amcwatters
@@ -29,8 +29,8 @@ space-developer:
   - vjayakar
   - garogia
   - kkanagaraj
-  - apillai
-  - abhaskarakurup
+  - anu.pillai@csaa.com
+  - anooj.bhaskarakurup@csaa.com
   - skumar
   - nnair
   - dilipkumar

@@ -3,10 +3,10 @@ space: document-portal-prod
 space-developer:
   ldap_users: []
   users:
-  - bmallick
+  - birabrat.mallick@csaa.com
   - starve
   - spaige
-  - alee
+  - anthony.lee@csaa.com
   - dkumar
   - skumar
   ldap_group: ""

@@ -12,7 +12,7 @@ space-developer:
   - bstuns
   - dkumar
   - spaige
-  - alee
+  - anthony.lee@csaa.com
   - tbenson
   - jon.utter@csaa.com
   - esubbaiyan
@@ -31,8 +31,8 @@ space-auditor:
   - dsaravanmuthu
   - garogia
   - kkanagaraj
-  - apillai
-  - abhaskarakurup
+  - anu.pillai@csaa.com
+  - anooj.bhaskarakurup@csaa.com
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false

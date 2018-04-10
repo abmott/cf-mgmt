@@ -8,7 +8,7 @@ space-developer:
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
   - tbenson
-  - alee
+  - anthony.lee@csaa.com
   - spaige
   - jon.utter@csaa.com
   - lita-concourse
@@ -32,15 +32,15 @@ space-auditor:
   - kpatel
   - kperry
   - rkumar
-  - bmallick
+  - birabrat.mallick@csaa.com
   - ryan.medina@csaa.com
   - amcwatters
   - esubbaiyan
   - vjayakar
   - garogia
   - kkanagaraj
-  - apillai
-  - abhaskarakurup
+  - anu.pillai@csaa.com
+  - anooj.bhaskarakurup@csaa.com
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false
