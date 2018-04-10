@@ -1,18 +1,20 @@
-org: ITSIA
+org: integrated_services
 space: shub-qa2
 space-developer:
   ldap_users: []
   users:
-  - dkumar
-  - skumar
-  - hmahey
+  - dgangina
+  - akomalachery
+  - dthompson
+  - kvemuri
+  - sankaran
+  - vdemera
+  - vdemera
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - dkumar
-  - skumar
-  - hmahey
+  - dthompson
   ldap_group: ""
 space-auditor:
   ldap_users: []
