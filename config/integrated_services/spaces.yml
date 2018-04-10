@@ -1,9 +1,3 @@
 org: integrated_services
 spaces:
 - shub-dev
-- shub-test
-- shub-dev2
-- shub-e2e
-- shub-perf
-- shub-qa
-- shub-qa2
