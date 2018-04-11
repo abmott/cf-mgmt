@@ -28,7 +28,6 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - rkumar
   - birabrat.mallick@csaa.com
   - ryan.medina@csaa.com
   - elumala.subbaiyan@csaa.com

@@ -3,6 +3,7 @@ space: claims-rideshare-qa
 space-developer:
   ldap_users: []
   users:
+  - ci-rideshare
   - vikram.ravindhran@csaa.com
   - amit.mishra@csaa.com
   - vasanth.jayaraman@csaa.com
