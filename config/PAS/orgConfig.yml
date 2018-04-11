@@ -6,7 +6,7 @@ org-billingmanager:
 org-manager:
   ldap_users: []
   users:
-  - knorton
+  - kevin.norton@csaa.com
   ldap_group: ""
 org-auditor:
   ldap_users: []
