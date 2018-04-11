@@ -6,15 +6,19 @@ space-developer:
   - dgangina
   - akomalachery
   - dthompson
-  - kvemuri
   - sankaran
   - vdemera
-  - vdemera
+  - deviprasad.gangina@csaa.com
+  - abhijith.komalachery@csaa.com
+  - dan.thompson@csaa.com
+  - sankaranarayanan.v@csaa.com
+  - venkata.damera@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
   - dthompson
+  - dan.thompson@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []
