@@ -3,7 +3,6 @@ space: DXP PERF
 space-developer:
   ldap_users: []
   users:
-  - knorton
   - kevin.norton@csaa.com
   - manoj.pokharel@csaa.com
   - saravanakumar.c@csaa.com
