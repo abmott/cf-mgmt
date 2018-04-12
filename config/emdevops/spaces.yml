@@ -1,0 +1,4 @@
+org: emdevops
+spaces:
+- jenkins-dev
+- jenkins-prod
