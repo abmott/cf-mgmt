@@ -1,0 +1,26 @@
+org: integrated_services
+space: tdm-test
+space-developer:
+  ldap_users: []
+  users:
+  - kirupakavi.rathinavelu@csaa.com
+  - ganesan.palanisamy@csaa.com
+  - george.arogia@csaa.com
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+allow-ssh: false
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
