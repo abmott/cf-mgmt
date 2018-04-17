@@ -10,6 +10,7 @@ org-manager:
   - kyle.campos@csaa.com
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
+  - brant.stuns@csaa.com
   - lita-concourse
   - admin
   ldap_group: ""
