@@ -2,7 +2,10 @@ org: integrated_services
 space: tdm-prod
 space-developer:
   ldap_users: []
-  users: []
+  users:
+  - kirupakavi.rathinavelu@csaa.com
+  - ganesan.palanisamy@csaa.com
+  - george.arogia@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
