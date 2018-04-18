@@ -14,6 +14,7 @@ space-developer:
   - samar.kumar@csaa.com
   - karthik.kanagaraj@csaa.com
   - pawel.bardzinski@csaa.com
+  - brant.stuns@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

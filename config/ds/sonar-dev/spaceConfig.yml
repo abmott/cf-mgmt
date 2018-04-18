@@ -8,6 +8,7 @@ space-developer:
   - kyle.campos@csaa.com
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
+  - brant.stuns@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

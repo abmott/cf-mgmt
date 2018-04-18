@@ -23,6 +23,7 @@ space-developer:
   - dilip.kumar.r@csaa.com
   - pawel.bardzinski@csaa.com
   - ryan.medina@csaa.com
+  - brant.stuns@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
