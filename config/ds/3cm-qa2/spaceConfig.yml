@@ -2,11 +2,19 @@ org: ds
 space: 3cm-qa2
 space-developer:
   ldap_users: []
-  users: []
+  users:
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  - sanjeeb.mallick@csaa.com
+  - pawel.bardzinski@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users: []
+  users:
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []
