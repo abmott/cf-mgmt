@@ -1,0 +1,32 @@
+org: ITSIA
+space: shared-service-perf
+space-developer:
+  ldap_users: []
+  users:
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  - sanjeeb.mallick@csaa.com
+  - lita-concourse
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users:
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - pradeep.depuru@csaa.com
+  ldap_group: ""
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
