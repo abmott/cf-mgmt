@@ -18,8 +18,7 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users:
-  - pradeep.depuru@csaa.com
+  users: []
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
