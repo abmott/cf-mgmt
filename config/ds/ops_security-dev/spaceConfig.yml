@@ -1,0 +1,30 @@
+org: ds
+space: ops_security-dev
+space-developer:
+  ldap_users: []
+  users:
+  - todd.benson@csaa.com
+  - anthony.lee@csaa.com
+  - pawel.bardzinski@csaa.com
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
+  - john.dee@csaa.com
+  - ci-ops-security
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
