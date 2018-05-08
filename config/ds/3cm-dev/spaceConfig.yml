@@ -9,6 +9,7 @@ space-developer:
   - sanjeeb.mallick@csaa.com
   - pawel.bardzinski@csaa.com
   - todd.benson@csaa.com
+  - ci-3cm
   ldap_group: ""
 space-manager:
   ldap_users: []

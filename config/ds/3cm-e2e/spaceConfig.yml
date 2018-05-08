@@ -8,6 +8,7 @@ space-developer:
   - harsh.mahey@csaa.com
   - sanjeeb.mallick@csaa.com
   - pawel.bardzinski@csaa.com
+  - ci-3cm
   ldap_group: ""
 space-manager:
   ldap_users: []

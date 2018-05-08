@@ -9,6 +9,8 @@ space-developer:
   - sanjeeb.mallick@csaa.com
   - lita-concourse
   - adam.mott@csaa.com
+  - pawel.bardzinski@csaa.com
+  - ci-3cm
   ldap_group: ""
 space-manager:
   ldap_users: []
