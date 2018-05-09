@@ -8,6 +8,8 @@ space-developer:
   - amit.mishra@csaa.com
   - vasanth.jayaraman@csaa.com
   - brant.stuns@csaa.com
+  - manmohan.tyagi@csaa.com
+  - puneet.nagpal@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
