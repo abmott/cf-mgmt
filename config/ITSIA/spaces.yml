@@ -9,3 +9,10 @@ spaces:
 - cccm-qa
 - cccm-qa2
 - shared-service-perf
+- shared-service-dev2
+- shared-service-dev
+- shared-service-e2e
+- shared-service-bf
+- shared-service-qa
+- shared-service-qa2
+- shared-service-prod
