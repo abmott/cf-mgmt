@@ -3,24 +3,26 @@ space: shared-service-qa2
 space-developer:
   ldap_users: []
   users:
-  - ci-rideshare
-  - vikram.ravindhran@csaa.com
-  - amit.mishra@csaa.com
-  - vasanth.jayaraman@csaa.com
-  - brant.stuns@csaa.com
-  - todd.benson@csaa.com
-  - manmohan.tyagi@csaa.com
-  - puneet.nagpal@csaa.com
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  - sanjeeb.mallick@csaa.com
+  - lita-concourse
+  - adam.mott@csaa.com
+  - pawel.bardzinski@csaa.com
+  - ci-3cm
   ldap_group: ""
 space-manager:
   ldap_users: []
   users:
-  - vikram.ravindhran@csaa.com
-  - amit.mishra@csaa.com
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - pradeep.depuru@csaa.com
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false
