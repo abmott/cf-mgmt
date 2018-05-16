@@ -14,7 +14,7 @@ org-auditor:
   users: []
   ldap_group: ""
 enable-org-quota: true
-memory-limit: 81920
+memory-limit: 122880
 instance-memory-limit: -1
 total-routes: 1000
 total-services: 100
