@@ -8,6 +8,7 @@ space-developer:
   - george.arogia@csaa.com
   - abhijith.komalachery@csaa.com
   - dan.thompson@csaa.com
+  - harish.kumar.m@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
