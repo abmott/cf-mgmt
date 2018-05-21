@@ -17,7 +17,7 @@ space-auditor:
   ldap_users: []
   users: []
   ldap_group: ""
-allow-ssh: false
+allow-ssh: true
 enable-space-quota: false
 memory-limit: 10240
 instance-memory-limit: -1
