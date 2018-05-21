@@ -51,3 +51,6 @@ spaces:
 - claims-rideshare-qa
 - claims-rideshare-prod
 - ops_security-dev
+- common-services-dev
+- common-services-test
+- common-services-prod
