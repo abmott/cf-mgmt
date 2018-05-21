@@ -1,4 +1,5 @@
 org: ds
+space: shared-service-bf
 space-developer:
   ldap_users: []
   users:
