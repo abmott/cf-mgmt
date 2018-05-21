@@ -1,0 +1,38 @@
+org: ds
+space: cccm-dev
+space-developer:
+  ldap_users: []
+  users:
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  - sanjeeb.mallick@csaa.com
+  - pawel.bardzinski@csaa.com
+  - john.dee@csaa.com
+  - adam.mott@csaa.com
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
+  - blair.kennedy@csaa.com
+  - ci-3cm
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users:
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - pradeep.depuru@csaa.com
+  ldap_group: ""
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
