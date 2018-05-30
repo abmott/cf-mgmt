@@ -10,6 +10,7 @@ space-developer:
   - lita-concourse
   - adam.mott@csaa.com
   - pawel.bardzinski@csaa.com
+  - liju.paul@csaa.com
   - ci-3cm
   ldap_group: ""
 space-manager:
