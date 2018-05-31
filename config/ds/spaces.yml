@@ -69,6 +69,6 @@ spaces:
 - shared-service-prod
 - shared-service-qa
 - shared-service-qa2
-- ati-devops-dev
-- ati-devops-test
-- ati-devops-prod
+- csaa-connected-driving-dev
+- csaa-connected-driving-test
+- csaa-connected-driving-prod
