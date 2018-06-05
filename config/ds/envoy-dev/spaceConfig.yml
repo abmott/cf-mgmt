@@ -23,6 +23,7 @@ space-developer:
   - karthik.kanagaraj@csaa.com
   - harsh.mahey@csaa.com
   - samar.kumar@csaa.com
+  - ci-envoy2
   ldap_group: ""
 space-manager:
   ldap_users: []
