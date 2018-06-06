@@ -75,3 +75,6 @@ spaces:
 - sso-dev
 - sso-test
 - sso-perf
+- pacer-dev
+- pacer-test
+- pacer-prod
