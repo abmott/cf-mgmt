@@ -72,3 +72,6 @@ spaces:
 - csaa-connected-driving-dev
 - csaa-connected-driving-test
 - csaa-connected-driving-prod
+- sso-dev
+- sso-test
+- sso-perf

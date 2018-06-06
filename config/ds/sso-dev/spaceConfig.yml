@@ -1,0 +1,54 @@
+org: ds
+space: sso-dev
+space-developer:
+  ldap_users: []
+  users:
+  - sean.wolfe@csaa.com
+  - anthony.lee@csaa.com
+  - kyle.campos@csaa.com
+  - john.dee@csaa.com
+  - lita-concourse
+  - scott.paige@csaa.com
+  - dumitru.gudima@csaa.com
+  - jon.utter@csaa.com
+  - adam.mott@csaa.com
+  - brant.stuns@csaa.com
+  - dhirender.kumar@csaa.com
+  - pawel.bardzinski@csaa.com
+  - todd.benson@csaa.com
+  - birabrat.mallick@csaa.com
+  - ryan.medina@csaa.com
+  - harsh.mahey@csaa.com
+  - elumala.subbaiyan@csaa.com
+  - divya.saravanamuthu@csaa.com
+  - vimal.jayakar@csaa.com
+  - george.arogia@csaa.com
+  - karthik.kanagaraj@csaa.com
+  - anu.pillai@csaa.com
+  - anooj.bhaskarakurup@csaa.com
+  - samar.kumar@csaa.com
+  - nidhin.nair@csaa.com
+  - dilip.kumar.r@csaa.com
+  - ci-sso
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users:
+  - john.dee@csaa.com
+  - lita-concourse
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - john.dee@csaa.com
+  - lita-concourse
+  ldap_group: ""
+allow-ssh: false
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
