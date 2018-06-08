@@ -12,6 +12,7 @@ space-developer:
   - sushma.koni@csaa.com
   - palaniappan.subbiah@csaa.com
   - vigneshwar.maruthavanan@csaa.com
+  - arturs.vinogradovs@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
