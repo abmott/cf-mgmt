@@ -10,6 +10,8 @@ space-developer:
   - brant.stuns@csaa.com
   - manmohan.tyagi@csaa.com
   - puneet.nagpal@csaa.com
+  - kirupakavi.rathinavelu@csaa.com
+  - vidhyameenakshi.govindaraj@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
