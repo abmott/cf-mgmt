@@ -23,6 +23,8 @@ space-developer:
   - samar.kumar@csaa.com
   - nidhin.nair@csaa.com
   - dilip.kumar.r@csaa.com
+  - rajesh.sharma@csaa.com
+  - mihai.smarandache@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
