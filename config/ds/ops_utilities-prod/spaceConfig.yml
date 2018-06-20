@@ -8,7 +8,7 @@ space-developer:
   - adam.mott@csaa.com
   - kyle.campos@csaa.com
   - brant.stuns@csaa.com
-  - dumitru.gudima@csaa.com
+
   - todd.benson@csaa.com
   - scott.paige@csaa.com
   ldap_group: ""
@@ -22,7 +22,8 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - dumitru.gudima@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

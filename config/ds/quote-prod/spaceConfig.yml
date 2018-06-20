@@ -8,11 +8,8 @@ space-developer:
   - kyle.campos@csaa.com
   - john.dee@csaa.com
   - brant.stuns@csaa.com
-  - dhirender.kumar@csaa.com
-  - admin
-  - brian.w.snodgrass@csaa.com
-  - karthik.kanagaraj@csaa.com
-  - samar.kumar@csaa.com
+  - pawel.bardzinski@csaa.com
+  - brant.stuns@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -28,6 +25,10 @@ space-auditor:
   - sean.wolfe@csaa.com
   - brant.stuns@csaa.com
   - divya.saravanamuthu@csaa.com
+  - dhirender.kumar@csaa.com
+  - karthik.kanagaraj@csaa.com
+  - samar.kumar@csaa.com
+  - brian.w.snodgrass@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

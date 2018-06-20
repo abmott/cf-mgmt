@@ -7,9 +7,8 @@ space-developer:
   - adam.mott@csaa.com
   - john.dee@csaa.com
   - kyle.campos@csaa.com
-  - vikram.ravindhran@csaa.com
-  - amit.mishra@csaa.com
-  - johri.dhanotra@csaa.com
+  - scott.paige@csaa.com
+  - brant.stuns@csaa.com
   - ci-ubi_mobile
   ldap_group: ""
 space-manager:
@@ -18,7 +17,10 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - vikram.ravindhran@csaa.com
+  - amit.mishra@csaa.com
+  - johri.dhanotra@csaa.com
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false

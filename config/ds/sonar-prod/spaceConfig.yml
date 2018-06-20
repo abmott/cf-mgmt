@@ -3,7 +3,6 @@ space: sonar-prod
 space-developer:
   ldap_users: []
   users:
-  - admin
   - adam.mott@csaa.com
   - kyle.campos@csaa.com
   - john.dee@csaa.com

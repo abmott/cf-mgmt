@@ -7,12 +7,9 @@ space-developer:
   - ci-mypolicy-da
   - scott.paige@csaa.com
   - adam.mott@csaa.com
-  - dumitru.gudima@csaa.com
-  - birabrat.mallick@csaa.com
   - brant.stuns@csaa.com
-  - dhirender.kumar@csaa.com
-  - samar.kumar@csaa.com
-  - karthik.kanagaraj@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -21,7 +18,12 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - dumitru.gudima@csaa.com
+  - birabrat.mallick@csaa.com
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - karthik.kanagaraj@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

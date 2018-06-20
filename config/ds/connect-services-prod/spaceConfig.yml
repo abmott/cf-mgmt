@@ -3,9 +3,13 @@ space: connect-services-prod
 space-developer:
   ldap_users: []
   users:
-  - dhirender.kumar@csaa.com
+  - john.dee@csaa.com
+  - adam.mott@csaa.com
+  - kyle.campos@csaa.com
+  - scott.paige@csaa.com
+  - pawel.bardzinski@csaa.com
+  - brant.stuns@csaa.com
   - ci-mypolicy-da
-  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -14,7 +18,9 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

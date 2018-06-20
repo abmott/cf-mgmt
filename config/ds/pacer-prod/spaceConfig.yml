@@ -6,7 +6,6 @@ space-developer:
   - pawel.bardzinski@csaa.com
   - sean.wolfe@csaa.com
   - brant.stuns@csaa.com
-  - dhirender.kumar@csaa.com
   - brian.w.snodgrass@csaa.com
   - anthony.lee@csaa.com
   - ci-quote-2
@@ -17,12 +16,7 @@ space-developer:
   - todd.benson@csaa.com
   - jon.utter@csaa.com
   - kyle.campos@csaa.com
-  - ryan.medina@csaa.com
   - scott.paige@csaa.com
-  - birabrat.mallick@csaa.com
-  - karthik.kanagaraj@csaa.com
-  - harsh.mahey@csaa.com
-  - samar.kumar@csaa.com
   - ci-envoy2
   ldap_group: ""
 space-manager:
@@ -33,6 +27,9 @@ space-manager:
   - adam.mott@csaa.com
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
+  - kyle.campos@csaa.com
+  - scott.paige@csaa.com
+  - brant.stuns@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []

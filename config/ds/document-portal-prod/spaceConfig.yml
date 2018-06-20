@@ -3,12 +3,12 @@ space: document-portal-prod
 space-developer:
   ldap_users: []
   users:
-  - birabrat.mallick@csaa.com
   - scott.paige@csaa.com
   - anthony.lee@csaa.com
+  - brant.stuns@csaa.com
+  - birabrat.mallick@csaa.com
   - dhirender.kumar@csaa.com
   - samar.kumar@csaa.com
-  - brant.stuns@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

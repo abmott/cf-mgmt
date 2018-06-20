@@ -3,14 +3,12 @@ space: shared-service-prod
 space-developer:
   ldap_users: []
   users:
-  - dhirender.kumar@csaa.com
-  - samar.kumar@csaa.com
-  - harsh.mahey@csaa.com
-  - sanjeeb.mallick@csaa.com
+  - john.dee@csaa.com
+  - scott.paige@csaa.com
+  - pawel.bardzinski@csaa.com
+  - brant.stuns@csaa.com
   - lita-concourse
   - adam.mott@csaa.com
-  - pawel.bardzinski@csaa.com
-  - liju.paul@csaa.com
   - kyle.campos@csaa.com
   - ci-3cm
   ldap_group: ""
@@ -25,6 +23,11 @@ space-auditor:
   ldap_users: []
   users:
   - pradeep.depuru@csaa.com
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  - sanjeeb.mallick@csaa.com
+  - liju.paul@csaa.com
   ldap_group: ""
 allow-ssh: false
 enable-space-quota: false

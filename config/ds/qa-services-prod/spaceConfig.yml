@@ -3,6 +3,11 @@ space: qa-services-prod
 space-developer:
   ldap_users: []
   users:
+  - john.dee@csaa.com
+  - adam.mott@csaa.com
+  - kyle.campos@csaa.com
+  - scott.paige@csaa.com
+  - pawel.bardzinski@csaa.com
   - sean.wolfe@csaa.com
   - jon.utter@csaa.com
   - brant.stuns@csaa.com

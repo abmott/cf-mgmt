@@ -13,14 +13,20 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - dhirender.kumar@csaa.com
-  - samar.kumar@csaa.com
-  - harsh.mahey@csaa.com
+  - john.dee@csaa.com
+  - adam.mott@csaa.com
+  - kyle.campos@csaa.com
+  - scott.paige@csaa.com
+  - pawel.bardzinski@csaa.com
+  - brant.stuns@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []
   users:
   - pradeep.depuru@csaa.com
+  - dhirender.kumar@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
