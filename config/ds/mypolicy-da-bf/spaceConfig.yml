@@ -4,6 +4,7 @@ space-developer:
   ldap_users: []
   users:
   - kyle.campos@csaa.com
+  - pawel.bardzinski@csaa.com
   - ci-mypolicy-da
   - dumitru.gudima@csaa.com
   - scott.paige@csaa.com
