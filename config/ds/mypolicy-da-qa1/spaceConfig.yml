@@ -1,5 +1,5 @@
 org: ds
-space: sso-test
+space: mypolicy-da-qa1
 space-developer:
   ldap_users: []
   users:
@@ -14,6 +14,7 @@ space-developer:
   - adam.mott@csaa.com
   - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
+  - ci-mypolicy-da
   - pawel.bardzinski@csaa.com
   - todd.benson@csaa.com
   - birabrat.mallick@csaa.com
@@ -29,8 +30,8 @@ space-developer:
   - samar.kumar@csaa.com
   - nidhin.nair@csaa.com
   - dilip.kumar.r@csaa.com
-  - liju.paul@csaa.com
-  - ci-sso
+  - rajesh.sharma@csaa.com
+  - mihai.smarandache@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

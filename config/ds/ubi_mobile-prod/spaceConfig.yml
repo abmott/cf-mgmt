@@ -22,7 +22,7 @@ space-auditor:
   - amit.mishra@csaa.com
   - johri.dhanotra@csaa.com
   ldap_group: ""
-allow-ssh: false
+allow-ssh: true
 enable-space-quota: false
 memory-limit: 10240
 instance-memory-limit: -1
