@@ -3,7 +3,6 @@ space: ops_utilities-dev
 space-developer:
   ldap_users: []
   users:
-  - admin
   - adam.mott@csaa.com
   - kyle.campos@csaa.com
   - john.dee@csaa.com
@@ -13,13 +12,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - john.dee@csaa.com
-  - pawel.bardzinski@csaa.com
-  - lita-concourse
-  - admin
-  - adam.mott@csaa.com
-  - kyle.campos@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

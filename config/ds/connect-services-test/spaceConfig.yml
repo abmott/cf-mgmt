@@ -3,6 +3,11 @@ space: connect-services-test
 space-developer:
   ldap_users: []
   users:
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
   - dhirender.kumar@csaa.com
   - ci-mypolicy-da
   - harsh.mahey@csaa.com
@@ -10,8 +15,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - ci-mypolicy-da
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

@@ -3,12 +3,15 @@ space: elastalert
 space-developer:
   ldap_users: []
   users:
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - pawel.bardzinski@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

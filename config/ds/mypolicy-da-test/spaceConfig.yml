@@ -4,15 +4,16 @@ space-developer:
   ldap_users: []
   users:
   - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
   - ci-mypolicy-da
   - dumitru.gudima@csaa.com
   - scott.paige@csaa.com
   - birabrat.mallick@csaa.com
-  - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
   - harsh.mahey@csaa.com
-  - adam.mott@csaa.com
-  - pawel.bardzinski@csaa.com
   - ryan.medina@csaa.com
   - elumala.subbaiyan@csaa.com
   - anthony.lee@csaa.com
@@ -29,8 +30,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - kyle.campos@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

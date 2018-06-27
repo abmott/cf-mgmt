@@ -3,6 +3,11 @@ space: csaa-connected-driving-test
 space-developer:
   ldap_users: []
   users:
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
   - ahil.ponarul@csaa.com
   - monica.angel@csaa.com
   - tims.thampy@csaa.com

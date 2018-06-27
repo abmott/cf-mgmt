@@ -9,10 +9,8 @@ space-developer:
   - dhirender.kumar@csaa.com
   - brian.w.snodgrass@csaa.com
   - anthony.lee@csaa.com
-  - ci-quote-2
   - john.dee@csaa.com
   - lita-concourse
-  - admin
   - adam.mott@csaa.com
   - todd.benson@csaa.com
   - jon.utter@csaa.com
@@ -27,12 +25,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - lita-concourse
-  - admin
-  - adam.mott@csaa.com
-  - john.dee@csaa.com
-  - pawel.bardzinski@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

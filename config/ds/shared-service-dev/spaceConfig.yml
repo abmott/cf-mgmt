@@ -8,10 +8,12 @@ space-developer:
   - harsh.mahey@csaa.com
   - sanjeeb.mallick@csaa.com
   - lita-concourse
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
   - adam.mott@csaa.com
+  - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
   - liju.paul@csaa.com
-  - kyle.campos@csaa.com
   - ci-3cm
   ldap_group: ""
 space-manager:

@@ -10,7 +10,7 @@ space-developer:
   - brant.stuns@csaa.com
   - dhirender.kumar@csaa.com
   - sean.wolfe@csaa.com
-  - admin
+  - kyle.campos@csaa.com
   - adam.mott@csaa.com
   - john.dee@csaa.com
   - birabrat.mallick@csaa.com
@@ -23,9 +23,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - admin
-  - pawel.bardzinski@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

@@ -43,7 +43,6 @@ spaces:
 - qa-services-dev
 - qa-services-test
 - qa-services-prod
-- ops_utilities-concourse
 - mypolicy-da-concourse
 - iportal-concourse
 - claims-rideshare-dev

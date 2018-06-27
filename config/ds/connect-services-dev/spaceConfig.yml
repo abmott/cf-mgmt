@@ -5,6 +5,7 @@ space-developer:
   users:
   - kyle.campos@csaa.com
   - brant.stuns@csaa.com
+  - pawel.bardzinski@csaa.com
   - dhirender.kumar@csaa.com
   - todd.benson@csaa.com
   - lita-concourse
@@ -16,10 +17,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - harsh.mahey@csaa.com
-  - lita-concourse
-  - ci-mypolicy-da
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

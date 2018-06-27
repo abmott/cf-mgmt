@@ -4,21 +4,22 @@ space-developer:
   ldap_users: []
   users:
   - ci-mypolicy-da
-  - john.dee@csaa.com
+  - kyle.campos@csaa.com
   - brant.stuns@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
   - dhirender.kumar@csaa.com
   - harsh.mahey@csaa.com
   - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - john.dee@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users:
-  - john.dee@csaa.com
+  users: []
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

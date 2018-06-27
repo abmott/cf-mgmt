@@ -3,10 +3,11 @@ space: ubi_mobile-dev
 space-developer:
   ldap_users: []
   users:
-  - pawel.bardzinski@csaa.com
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
   - adam.mott@csaa.com
   - john.dee@csaa.com
-  - kyle.campos@csaa.com
+  - pawel.bardzinski@csaa.com
   - vikram.ravindhran@csaa.com
   - amit.mishra@csaa.com
   - johri.dhanotra@csaa.com

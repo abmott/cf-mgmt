@@ -3,17 +3,19 @@ space: ds_web-dev
 space-developer:
   ldap_users: []
   users:
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
   - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
   - michael.e.kelly@csaa.com
   - harsh.mahey@csaa.com
   - dhirender.kumar@csaa.com
   - samar.kumar@csaa.com
-  - brant.stuns@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - adam.mott@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

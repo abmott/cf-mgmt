@@ -2,7 +2,12 @@ org: ds
 space: service-broker
 space-developer:
   ldap_users: []
-  users: []
+  users:
+  - kyle.campos@csaa.com
+  - brant.stuns@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

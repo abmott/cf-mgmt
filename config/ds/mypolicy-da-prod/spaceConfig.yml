@@ -13,8 +13,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - kyle.campos@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

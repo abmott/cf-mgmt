@@ -3,10 +3,12 @@ space: quote-cert
 space-developer:
   ldap_users: []
   users:
-  - admin
   - ci-quote-2
   - kyle.campos@csaa.com
   - brant.stuns@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
   - dhirender.kumar@csaa.com
   - ryan.medina@csaa.com
   - brian.w.snodgrass@csaa.com
@@ -20,9 +22,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - admin
-  - kyle.campos@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []

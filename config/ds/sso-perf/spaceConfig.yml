@@ -34,15 +34,11 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - john.dee@csaa.com
-  - lita-concourse
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users:
-  - john.dee@csaa.com
-  - lita-concourse
+  users: []
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
