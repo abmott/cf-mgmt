@@ -30,6 +30,7 @@ space-developer:
   - samar.kumar@csaa.com
   - nidhin.nair@csaa.com
   - dilip.kumar.r@csaa.com
+  - maryan.shevchuk@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
