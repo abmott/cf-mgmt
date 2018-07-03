@@ -10,6 +10,7 @@ space-developer:
   - brant.stuns@csaa.com
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
+  - samar.kumar@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
