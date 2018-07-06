@@ -12,6 +12,10 @@ space-developer:
   - palaniappan.subbiah@csaa.com
   - vigneshwar.maruthavanan@csaa.com
   - arturs.vinogradovs@csaa.com
+  - samantha.stovall@csaa.com
+  - ryan.mccullough@csaa.com
+  - erik.kriel@csaa.com
+  - darren.butler@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
