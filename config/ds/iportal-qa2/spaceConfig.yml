@@ -1,0 +1,42 @@
+org: ds
+space: iportal-qa2
+space-developer:
+  ldap_users: []
+  users:
+  - ci-iportal
+  - john.dee@csaa.com
+  - adam.mott@csaa.com
+  - kyle.campos@csaa.com
+  - dumitru.gudima@csaa.com
+  - dhirender.kumar@csaa.com
+  - scott.paige@csaa.com
+  - harsh.mahey@csaa.com
+  - anthony.lee@csaa.com
+  - divya.saravanamuthu@csaa.com
+  - karthik.kanagaraj@csaa.com
+  - anu.pillai@csaa.com
+  - anooj.bhaskarakurup@csaa.com
+  - samar.kumar@csaa.com
+  - nidhin.nair@csaa.com
+  - dilip.kumar.r@csaa.com
+  - pawel.bardzinski@csaa.com
+  - ryan.medina@csaa.com
+  - brant.stuns@csaa.com
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true

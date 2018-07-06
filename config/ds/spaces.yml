@@ -82,3 +82,5 @@ spaces:
 - ubi_mobile-test
 - ubi_mobile-prod
 - mypolicy-da-qa1
+- mypolicy-da-qa2
+- iportal-qa2
