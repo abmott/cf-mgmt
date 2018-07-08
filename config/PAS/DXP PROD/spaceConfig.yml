@@ -14,6 +14,7 @@ space-developer:
   - ryan.mccullough@csaa.com
   - erik.kriel@csaa.com
   - darren.butler@csaa.com
+  - ci-dxp
   ldap_group: ""
 space-manager:
   ldap_users: []

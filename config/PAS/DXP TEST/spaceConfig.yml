@@ -1,5 +1,5 @@
 org: PAS
-space: DXP DEV
+space: DXP TEST
 space-developer:
   ldap_users: []
   users:
@@ -20,8 +20,7 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - kevin.norton@csaa.com
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []
