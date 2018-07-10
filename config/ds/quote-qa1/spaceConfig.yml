@@ -1,0 +1,49 @@
+org: ds
+space: quote-qa1
+space-developer:
+  ldap_users: []
+  users:
+  - pawel.bardzinski@csaa.com
+  - sean.wolfe@csaa.com
+  - brant.stuns@csaa.com
+  - dhirender.kumar@csaa.com
+  - brian.w.snodgrass@csaa.com
+  - anthony.lee@csaa.com
+  - ci-quote-2
+  - john.dee@csaa.com
+  - lita-concourse
+  - adam.mott@csaa.com
+  - todd.benson@csaa.com
+  - jon.utter@csaa.com
+  - kyle.campos@csaa.com
+  - ryan.medina@csaa.com
+  - scott.paige@csaa.com
+  - birabrat.mallick@csaa.com
+  - karthik.kanagaraj@csaa.com
+  - harsh.mahey@csaa.com
+  - divya.saravanamuthu@csaa.com
+  - nidhin.nair@csaa.com
+  - elumala.subbaiyan@csaa.com
+  - samar.kumar@csaa.com
+  - gareth.leonard@csaa.com
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - jon.utter@csaa.com
+  - ramesh.thiyagarajan@csaa.com
+  - lita-concourse
+  ldap_group: ""
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
