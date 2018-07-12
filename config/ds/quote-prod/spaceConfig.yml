@@ -9,6 +9,7 @@ space-developer:
   - john.dee@csaa.com
   - brant.stuns@csaa.com
   - pawel.bardzinski@csaa.com
+  - brian.w.snodgrass@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -25,7 +26,6 @@ space-auditor:
   - dhirender.kumar@csaa.com
   - karthik.kanagaraj@csaa.com
   - samar.kumar@csaa.com
-  - brian.w.snodgrass@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
