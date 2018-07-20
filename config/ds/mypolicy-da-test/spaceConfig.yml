@@ -28,6 +28,7 @@ space-developer:
   - rajesh.sharma@csaa.com
   - mihai.smarandache@csaa.com
   - maryan.shevchuk@csaa.com
+  - jason.mcneill@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

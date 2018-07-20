@@ -11,6 +11,7 @@ space-developer:
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
   - samar.kumar@csaa.com
+  - jason.mcneill@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
