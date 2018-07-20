@@ -30,6 +30,7 @@ space-auditor:
   users:
   - ramesh.thiyagarajan@csaa.com
   - jon.utter@csaa.com
+  - karthika.premi.subramanian@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

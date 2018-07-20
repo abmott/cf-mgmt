@@ -26,6 +26,7 @@ space-auditor:
   - dhirender.kumar@csaa.com
   - karthik.kanagaraj@csaa.com
   - samar.kumar@csaa.com
+  - karthika.premi.subramanian@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

@@ -37,6 +37,7 @@ space-auditor:
   - jon.utter@csaa.com
   - ramesh.thiyagarajan@csaa.com
   - lita-concourse
+  - karthika.premi.subramanian@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
