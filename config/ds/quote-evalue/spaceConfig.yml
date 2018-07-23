@@ -20,6 +20,7 @@ space-developer:
   - divya.saravanamuthu@csaa.com
   - nidhin.nair@csaa.com
   - samar.kumar@csaa.com
+  - gareth.leonard@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
