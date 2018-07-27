@@ -26,6 +26,7 @@ space-developer:
   - elumala.subbaiyan@csaa.com
   - samar.kumar@csaa.com
   - gareth.leonard@csaa.com
+  - ramesh.thiyagarajan@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -34,9 +35,6 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - jon.utter@csaa.com
-  - ramesh.thiyagarajan@csaa.com
-  - lita-concourse
   - karthika.premi.subramanian@csaa.com
   ldap_group: ""
 allow-ssh: true

@@ -3,31 +3,31 @@ space: mypolicy-da-dev
 space-developer:
   ldap_users: []
   users:
-  - sean.wolfe@csaa.com
-  - anthony.lee@csaa.com
   - kyle.campos@csaa.com
-  - john.dee@csaa.com
-  - lita-concourse
-  - scott.paige@csaa.com
-  - dumitru.gudima@csaa.com
-  - jon.utter@csaa.com
   - adam.mott@csaa.com
-  - brant.stuns@csaa.com
-  - dhirender.kumar@csaa.com
-  - ci-mypolicy-da
+  - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
   - todd.benson@csaa.com
+  - anthony.lee@csaa.com
+  - scott.paige@csaa.com
+  - jon.utter@csaa.com
+  - sean.wolfe@csaa.com
+  - lita-concourse
+  - ci-mypolicy-da
+  - dumitru.gudima@csaa.com
+  - brant.stuns@csaa.com
+  - dhirender.kumar@csaa.com
+  - elumala.subbaiyan@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  - divya.saravanamuthu@csaa.com
   - birabrat.mallick@csaa.com
   - ryan.medina@csaa.com
-  - harsh.mahey@csaa.com
-  - elumala.subbaiyan@csaa.com
-  - divya.saravanamuthu@csaa.com
   - vimal.jayakar@csaa.com
   - george.arogia@csaa.com
   - karthik.kanagaraj@csaa.com
   - anu.pillai@csaa.com
   - anooj.bhaskarakurup@csaa.com
-  - samar.kumar@csaa.com
   - nidhin.nair@csaa.com
   - dilip.kumar.r@csaa.com
   - rajesh.sharma@csaa.com
@@ -37,15 +37,11 @@ space-developer:
   ldap_group: ""
 space-manager:
   ldap_users: []
-  users:
-  - john.dee@csaa.com
-  - lita-concourse
+  users: []
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users:
-  - john.dee@csaa.com
-  - lita-concourse
+  users: []
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
