@@ -22,6 +22,7 @@ space-auditor:
   - amit.mishra@csaa.com
   - johri.dhanotra@csaa.com
   - oliver.wessoniii@csaa.com
+  - arti.raj@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
