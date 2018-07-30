@@ -12,6 +12,7 @@ space-developer:
   - monica.angel@csaa.com
   - tims.thampy@csaa.com
   - pooja.kosunam@csaa.com
+  - oliver.wessoniii@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
