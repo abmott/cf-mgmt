@@ -23,7 +23,7 @@ org-auditor:
 enable-org-quota: true
 memory-limit: 460800
 instance-memory-limit: -1
-total-routes: 1500
+total-routes: 1700
 total-services: 100
 paid-service-plans-allowed: true
 enable-remove-users: true
