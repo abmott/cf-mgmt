@@ -21,6 +21,7 @@ space-auditor:
   - vikram.ravindhran@csaa.com
   - amit.mishra@csaa.com
   - vasanth.jayaraman@csaa.com
+  - john.beaty@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
