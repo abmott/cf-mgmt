@@ -1,0 +1,60 @@
+org: ds
+space: ezpay-dev
+space-developer:
+  ldap_users: []
+  users:
+  - kyle.campos@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
+  - todd.benson@csaa.com
+  - anthony.lee@csaa.com
+  - scott.paige@csaa.com
+  - jon.utter@csaa.com
+  - sean.wolfe@csaa.com
+  - lita-concourse
+  - ci-mypolicy-da
+  - dumitru.gudima@csaa.com
+  - brant.stuns@csaa.com
+  - dhirender.kumar@csaa.com
+  - elumala.subbaiyan@csaa.com
+  - samar.kumar@csaa.com
+  - harsh.mahey@csaa.com
+  - divya.saravanamuthu@csaa.com
+  - birabrat.mallick@csaa.com
+  - ryan.medina@csaa.com
+  - vimal.jayakar@csaa.com
+  - george.arogia@csaa.com
+  - karthik.kanagaraj@csaa.com
+  - anu.pillai@csaa.com
+  - anooj.bhaskarakurup@csaa.com
+  - nidhin.nair@csaa.com
+  - dilip.kumar.r@csaa.com
+  - rajesh.sharma@csaa.com
+  - mihai.smarandache@csaa.com
+  - maryan.shevchuk@csaa.com
+  - jason.mcneill@csaa.com
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 0
+instance-memory-limit: 0
+total-routes: 0
+total-services: 0
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
+total_private_domains: 0
+total_reserved_route_ports: 0
+total_service_keys: 0
+app_instance_limit: 0
+isolation_segment: ""
+named-security-groups: []

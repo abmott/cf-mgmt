@@ -85,3 +85,7 @@ spaces:
 - mypolicy-da-qa2
 - iportal-qa2
 - quote-qa1
+- ezpay-dev
+- ezpay-test
+- ezpay-prod
+enable-delete-spaces: false
