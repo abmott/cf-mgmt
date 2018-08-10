@@ -1,5 +1,6 @@
 org: ds
 spaces:
+- admin-portal-dev
 - admin-portal-perf
 - admin-portal-prod
 - quote-dev
