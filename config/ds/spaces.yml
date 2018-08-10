@@ -80,7 +80,6 @@ spaces:
 - pacer-dev
 - pacer-test
 - pacer-prod
-- selfservice-dev
 - ubi_mobile-dev
 - ubi_mobile-test
 - ubi_mobile-prod
