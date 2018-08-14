@@ -12,6 +12,7 @@ space-developer:
   - dhirender.kumar@csaa.com
   - elumala.subbaiyan@csaa.com
   - samar.kumar@csaa.com
+  - ci-admin-portal
   ldap_group: ""
 space-manager:
   ldap_users: []
