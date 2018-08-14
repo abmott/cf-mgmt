@@ -16,6 +16,7 @@ space-developer:
   - darren.butler@csaa.com
   - ci-dxp
   - sreedevi.katari@csaa.com
+  - maija.strazda@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

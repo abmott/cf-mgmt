@@ -15,6 +15,7 @@ space-developer:
   - aiga.romane@csaa.com
   - arturs.vinogradovs@csaa.com
   - sreedevi.katari@csaa.com
+  - maija.strazda@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
