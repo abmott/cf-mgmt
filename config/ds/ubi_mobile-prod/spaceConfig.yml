@@ -23,6 +23,7 @@ space-auditor:
   - johri.dhanotra@csaa.com
   - anuj.kapil@csaa.com
   - naveenkumar.vangapelly@csaa.com
+  - chandra.sekhar.ganta@csaa.com
   - arti.raj@csaa.com
   ldap_group: ""
 allow-ssh: true
