@@ -3,7 +3,6 @@ space: mypolicy-da-bf
 space-developer:
   ldap_users: []
   users:
-  - kyle.campos@csaa.com
   - brant.stuns@csaa.com
   - adam.mott@csaa.com
   - john.dee@csaa.com
@@ -30,7 +29,6 @@ space-developer:
 space-manager:
   ldap_users: []
   users:
-  - kyle.campos@csaa.com
   ldap_group: ""
 space-auditor:
   ldap_users: []

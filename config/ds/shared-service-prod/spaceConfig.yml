@@ -9,7 +9,6 @@ space-developer:
   - brant.stuns@csaa.com
   - lita-concourse
   - adam.mott@csaa.com
-  - kyle.campos@csaa.com
   - ci-3cm
   ldap_group: ""
 space-manager:

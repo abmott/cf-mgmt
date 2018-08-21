@@ -3,7 +3,6 @@ space: connect-services-dev
 space-developer:
   ldap_users: []
   users:
-  - kyle.campos@csaa.com
   - brant.stuns@csaa.com
   - pawel.bardzinski@csaa.com
   - dhirender.kumar@csaa.com

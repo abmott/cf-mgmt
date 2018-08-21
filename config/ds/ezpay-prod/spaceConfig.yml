@@ -3,7 +3,6 @@ space: ezpay-prod
 space-developer:
   ldap_users: []
   users:
-  - kyle.campos@csaa.com
   - ci-mypolicy-da
   - scott.paige@csaa.com
   - adam.mott@csaa.com

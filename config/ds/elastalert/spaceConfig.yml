@@ -3,7 +3,6 @@ space: elastalert
 space-developer:
   ldap_users: []
   users:
-  - kyle.campos@csaa.com
   - brant.stuns@csaa.com
   - adam.mott@csaa.com
   - john.dee@csaa.com

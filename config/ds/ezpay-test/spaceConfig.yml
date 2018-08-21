@@ -3,7 +3,6 @@ space: ezpay-test
 space-developer:
   ldap_users: []
   users:
-  - kyle.campos@csaa.com
   - adam.mott@csaa.com
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com

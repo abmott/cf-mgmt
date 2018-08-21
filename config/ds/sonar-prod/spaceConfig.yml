@@ -4,7 +4,6 @@ space-developer:
   ldap_users: []
   users:
   - adam.mott@csaa.com
-  - kyle.campos@csaa.com
   - john.dee@csaa.com
   - brant.stuns@csaa.com
   - pawel.bardzinski@csaa.com
