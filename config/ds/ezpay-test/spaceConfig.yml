@@ -34,6 +34,7 @@ space-developer:
   - mihai.smarandache@csaa.com
   - maryan.shevchuk@csaa.com
   - jason.mcneill@csaa.com
+  - ci-ezpay
   ldap_group: ""
 space-manager:
   ldap_users: []
