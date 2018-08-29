@@ -19,6 +19,7 @@ space-developer:
   - john.beaty@csaa.com
   - pradeep.depuru@csaa.com
   - madhumitha.gandhi@csaa.com
+  - chandra.sekhar.ganta@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
