@@ -23,6 +23,6 @@ enable-org-quota: true
 memory-limit: 460800
 instance-memory-limit: -1
 total-routes: 1700
-total-services: 100
+total-services: 200
 paid-service-plans-allowed: true
 enable-remove-users: true
