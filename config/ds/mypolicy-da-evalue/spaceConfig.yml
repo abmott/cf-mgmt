@@ -3,7 +3,6 @@ space: mypolicy-da-evalue
 space-developer:
   ldap_users: []
   users:
-  - sean.wolfe@csaa.com
   - anthony.lee@csaa.com
   - john.dee@csaa.com
   - lita-concourse
