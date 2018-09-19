@@ -5,6 +5,7 @@ space-developer:
   users:
   - maija.strazda@csaa.com
   - anna.votinova@csaa.com
+  - kusuma.cherukuri@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
