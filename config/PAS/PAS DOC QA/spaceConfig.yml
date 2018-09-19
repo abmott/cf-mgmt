@@ -6,6 +6,8 @@ space-developer:
   - maija.strazda@csaa.com
   - anna.votinova@csaa.com
   - kusuma.cherukuri@csaa.com
+  - kevin.norton@csaa.com
+  - manoj.pokharel@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
