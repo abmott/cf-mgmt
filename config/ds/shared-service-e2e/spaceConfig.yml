@@ -23,6 +23,7 @@ space-auditor:
   ldap_users: []
   users:
   - pradeep.depuru@csaa.com
+  - blair.kennedy@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

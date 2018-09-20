@@ -26,7 +26,8 @@ space-manager:
   ldap_group: ""
 space-auditor:
   ldap_users: []
-  users: []
+  users:
+  - blair.kennedy@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

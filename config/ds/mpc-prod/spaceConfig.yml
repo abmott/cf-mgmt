@@ -17,6 +17,7 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
+  - blair.kennedy@csaa.com
   - dhirender.kumar@csaa.com
   - samar.kumar@csaa.com
   ldap_group: ""

@@ -22,6 +22,7 @@ space-auditor:
   ldap_users: []
   users:
   - lita-concourse
+  - blair.kennedy@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

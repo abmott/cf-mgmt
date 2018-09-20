@@ -42,7 +42,7 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - john.dee@csaa.com
+  - blair.kennedy@csaa.com
   - lita-concourse
   ldap_group: ""
 allow-ssh: true

@@ -24,6 +24,7 @@ space-auditor:
   - harsh.mahey@csaa.com
   - sanjeeb.mallick@csaa.com
   - liju.paul@csaa.com
+  - blair.kennedy@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

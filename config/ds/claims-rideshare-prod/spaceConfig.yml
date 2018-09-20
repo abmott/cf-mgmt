@@ -22,6 +22,7 @@ space-auditor:
   - vasanth.jayaraman@csaa.com
   - john.beaty@csaa.com
   - chandra.sekhar.ganta@csaa.com
+  - blair.kennedy@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

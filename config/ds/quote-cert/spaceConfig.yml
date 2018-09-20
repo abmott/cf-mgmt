@@ -28,6 +28,7 @@ space-auditor:
   ldap_users: []
   users:
   - karthika.premi.subramanian@csaa.com
+  - blair.kennedy@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false

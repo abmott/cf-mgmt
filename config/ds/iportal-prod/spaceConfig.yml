@@ -22,6 +22,7 @@ space-auditor:
   - dumitru.gudima@csaa.com
   - dhirender.kumar@csaa.com
   - karthik.kanagaraj@csaa.com
+  - blair.kennedy@csaa.com
   ldap_group: ""
 allow-ssh: true
 enable-space-quota: false
