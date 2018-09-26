@@ -1,0 +1,43 @@
+org: ds
+space: ubi_mobile-qa
+space-developer:
+  ldap_users: []
+  users:
+  - brant.stuns@csaa.com
+  - adam.mott@csaa.com
+  - john.dee@csaa.com
+  - pawel.bardzinski@csaa.com
+  - vikram.ravindhran@csaa.com
+  - amit.mishra@csaa.com
+  - johri.dhanotra@csaa.com
+  - pitchi.babu.sayani@csaa.com
+  - swapnil.murmurwar@csaa.com
+  - sushant.soni@csaa.com
+  - sundeep.kumar@csaa.com
+  - yogita.joshi@csaa.com
+  - john.beaty@csaa.com
+  - arti.raj@csaa.com
+  - anuj.kapil@csaa.com
+  - naveenkumar.vangapelly@csaa.com
+  - chandra.sekhar.ganta@csaa.com
+  - prateek.bhatter@csaa.com
+  - ci-ubi_mobile
+  ldap_group: ""
+space-manager:
+  ldap_users: []
+  users: []
+  ldap_group: ""
+space-auditor:
+  ldap_users: []
+  users:
+  - blair.kennedy@csaa.com
+  ldap_group: ""
+allow-ssh: true
+enable-space-quota: false
+memory-limit: 10240
+instance-memory-limit: -1
+total-routes: 10
+total-services: -1
+paid-service-plans-allowed: false
+enable-security-group: false
+enable-remove-users: true
