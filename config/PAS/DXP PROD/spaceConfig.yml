@@ -20,6 +20,7 @@ space-developer:
   - andrii.syniagin@csaa.com
   - evalas.prokofijovas@csaa.com
   - kumar.choppa@csaa.com
+  - adam.mott@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
