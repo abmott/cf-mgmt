@@ -9,7 +9,6 @@ space-developer:
   - lita-concourse
   - adam.mott@csaa.com
   - todd.benson@csaa.com
-  - jon.utter@csaa.com
   - scott.paige@csaa.com
   - ci-envoy2
   ldap_group: ""

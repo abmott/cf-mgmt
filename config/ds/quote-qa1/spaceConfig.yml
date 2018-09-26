@@ -13,7 +13,6 @@ space-developer:
   - lita-concourse
   - adam.mott@csaa.com
   - todd.benson@csaa.com
-  - jon.utter@csaa.com
   - ryan.medina@csaa.com
   - scott.paige@csaa.com
   - birabrat.mallick@csaa.com
@@ -23,7 +22,6 @@ space-developer:
   - nidhin.nair@csaa.com
   - elumala.subbaiyan@csaa.com
   - samar.kumar@csaa.com
-  - gareth.leonard@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
@@ -32,7 +30,6 @@ space-manager:
 space-auditor:
   ldap_users: []
   users:
-  - jon.utter@csaa.com
   - ramesh.thiyagarajan@csaa.com
   - lita-concourse
   - karthika.premi.subramanian@csaa.com

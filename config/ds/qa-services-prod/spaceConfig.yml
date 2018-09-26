@@ -7,7 +7,6 @@ space-developer:
   - adam.mott@csaa.com
   - scott.paige@csaa.com
   - pawel.bardzinski@csaa.com
-  - jon.utter@csaa.com
   - brant.stuns@csaa.com
   ldap_group: ""
 space-manager:

@@ -27,7 +27,6 @@ space-auditor:
   ldap_users: []
   users:
   - ramesh.thiyagarajan@csaa.com
-  - jon.utter@csaa.com
   - karthika.premi.subramanian@csaa.com
   - blair.kennedy@csaa.com
   ldap_group: ""

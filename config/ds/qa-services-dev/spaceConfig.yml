@@ -7,8 +7,6 @@ space-developer:
   - adam.mott@csaa.com
   - john.dee@csaa.com
   - pawel.bardzinski@csaa.com
-  - jon.utter@csaa.com
-  - gareth.leonard@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
