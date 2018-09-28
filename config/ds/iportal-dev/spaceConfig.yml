@@ -24,6 +24,7 @@ space-developer:
   - anooj.bhaskarakurup@csaa.com
   - nidhin.nair@csaa.com
   - dilip.kumar.r@csaa.com
+  - raja.pandiyan@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

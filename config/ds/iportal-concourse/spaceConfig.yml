@@ -18,6 +18,7 @@ space-developer:
   - samar.kumar@csaa.com
   - ryan.medina@csaa.com
   - divya.saravanamuthu@csaa.com
+  - raja.pandiyan@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []

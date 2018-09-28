@@ -23,6 +23,7 @@ space-developer:
   - elumala.subbaiyan@csaa.com
   - samar.kumar@csaa.com
   - ramesh.thiyagarajan@csaa.com
+  - raja.pandiyan@csaa.com
   ldap_group: ""
 space-manager:
   ldap_users: []
